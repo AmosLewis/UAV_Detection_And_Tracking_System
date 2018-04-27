@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/cc/rosdji_sdk/devel/setup.sh

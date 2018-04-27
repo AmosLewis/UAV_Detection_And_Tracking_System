@@ -1,0 +1,2 @@
+Onboard-SDK-ROS-3.1/dji_sdk:Onboard-SDK-ROS-3.1/dji_sdk_lib:Onboard-SDK-ROS-3.1/dji_sdk_read_cam:Onboard-SDK-ROS-3.1/kcf_detect:Onboard-SDK-ROS-3.1/kcf_kcf:Onboard-SDK-ROS-3.1/measurement:Onboard-SDK-ROS-3.1/uavcontrol
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/cc/rosdji_sdk/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cc/rosdji_sdk/install -G Unix Makefiles

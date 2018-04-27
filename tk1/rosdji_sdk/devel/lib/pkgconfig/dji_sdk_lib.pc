@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/cc/rosdji_sdk/devel
+
+Name: dji_sdk_lib
+Description: Description of dji_sdk_lib
+Version: 0.1.9
+Cflags: -I/home/ubuntu/cc/rosdji_sdk/src/Onboard-SDK-ROS-3.1/dji_sdk_lib/include
+Libs: -L/home/ubuntu/cc/rosdji_sdk/devel/lib -ldji_sdk_lib
+Requires: 

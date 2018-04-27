@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/cc/rosdji_sdk/devel
+
+Name: dji_sdk_read_cam
+Description: Description of dji_sdk_read_cam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/cc/rosdji_sdk/devel/lib 
+Requires: 

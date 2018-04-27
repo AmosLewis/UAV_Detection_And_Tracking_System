@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="uavcontrol" type="camerandheight" name="camerandheight" output="screen">
+	</node>
+</launch>

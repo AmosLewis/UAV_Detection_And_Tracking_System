@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/cc/rosdji_sdk/install
+
+Name: dji_sdk_lib
+Description: Description of dji_sdk_lib
+Version: 0.1.9
+Cflags: -I/home/ubuntu/cc/rosdji_sdk/install/include
+Libs: -L/home/ubuntu/cc/rosdji_sdk/install/lib -ldji_sdk_lib
+Requires: 

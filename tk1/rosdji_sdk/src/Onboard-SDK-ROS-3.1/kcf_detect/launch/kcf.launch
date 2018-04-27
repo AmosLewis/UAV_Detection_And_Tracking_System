@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="kcf" type="kcf_node" name="track_pkg" output="screen">
+	</node>
+</launch>

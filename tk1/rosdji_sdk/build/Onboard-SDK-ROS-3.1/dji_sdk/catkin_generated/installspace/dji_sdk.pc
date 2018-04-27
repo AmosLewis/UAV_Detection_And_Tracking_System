@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/cc/rosdji_sdk/install
+
+Name: dji_sdk
+Description: Description of dji_sdk
+Version: 0.1.9
+Cflags: -I/home/ubuntu/cc/rosdji_sdk/install/include
+Libs: -L/home/ubuntu/cc/rosdji_sdk/install/lib 
+Requires: message_runtime actionlib actionlib_msgs geometry_msgs nav_msgs std_msgs dji_sdk_lib

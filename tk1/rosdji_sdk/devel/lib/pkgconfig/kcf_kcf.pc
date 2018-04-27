@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/cc/rosdji_sdk/devel
+
+Name: kcf_kcf
+Description: Description of kcf_kcf
+Version: 0.0.0
+Cflags: -I/home/ubuntu/cc/rosdji_sdk/devel/include
+Libs: -L/home/ubuntu/cc/rosdji_sdk/devel/lib 
+Requires: message_runtime

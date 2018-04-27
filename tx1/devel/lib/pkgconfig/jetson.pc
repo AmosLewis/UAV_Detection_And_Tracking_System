@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/hj/workspace/jetson-ros/devel
+
+Name: jetson
+Description: Description of jetson
+Version: 0.0.0
+Cflags: -I/home/ubuntu/hj/workspace/jetson-ros/devel/include
+Libs: -L/home/ubuntu/hj/workspace/jetson-ros/devel/lib 
+Requires: cv_bridge image_transport nodelet roscpp rospy sensor_msgs std_msgs

@@ -1,0 +1,2 @@
+jetson:subjetson
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/hj/workspace/jetson-ros/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/hj/workspace/jetson-ros/install -G Unix Makefiles

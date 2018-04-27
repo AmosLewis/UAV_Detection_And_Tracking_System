@@ -1,0 +1,1763 @@
+ccopy_reg
+_reconstructor
+p0
+(cdigits.model.images.generic.job
+GenericImageModelJob
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'username'
+p6
+Vdetect
+p7
+sS'_notes'
+p8
+NsS'tasks'
+p9
+(lp10
+g0
+(cdigits.model.tasks.caffe_train
+CaffeTrainTask
+p11
+g2
+Ntp12
+Rp13
+(dp14
+S'shuffle'
+p15
+I01
+sS'snapshot_interval'
+p16
+F1.0
+sS'train_outputs'
+p17
+ccollections
+OrderedDict
+p18
+((lp19
+(lp20
+S'epoch'
+p21
+ag0
+(cdigits.model.tasks.train
+NetworkOutput
+p22
+c__builtin__
+tuple
+p23
+(S'Epoch'
+p24
+(lp25
+I0
+aF0.1238244514106583
+aF0.2476489028213166
+aF0.3714733542319749
+aF0.4952978056426332
+aF0.6191222570532915
+aF0.7429467084639498
+aF0.8667711598746082
+aF0.9905956112852664
+aF1.1144200626959249
+aF1.238244514106583
+aF1.3620689655172413
+aF1.4858934169278997
+aF1.609717868338558
+aF1.7335423197492164
+aF1.8573667711598747
+aF1.9811912225705328
+aF2.105015673981191
+aF2.2288401253918497
+aF2.352664576802508
+aF2.476489028213166
+aF2.6003134796238245
+aF2.7241379310344827
+aF2.847962382445141
+aF2.9717868338557993
+aF3.095611285266458
+aF3.219435736677116
+aF3.343260188087774
+aF3.4670846394984327
+aF3.590909090909091
+aF3.7147335423197494
+aF3.8385579937304075
+aF3.9623824451410656
+aF4.086206896551724
+aF4.210031347962382
+aF4.33385579937304
+aF4.4576802507836994
+aF4.581504702194358
+aF4.705329153605016
+aF4.829153605015674
+aF4.952978056426332
+aF5.076802507836991
+aF5.200626959247649
+aF5.324451410658307
+aF5.448275862068965
+aF5.572100313479623
+aF5.695924764890282
+aF5.8197492163009406
+aF5.943573667711599
+aF6.067398119122257
+aF6.191222570532916
+aF6.315047021943574
+aF6.438871473354232
+aF6.56269592476489
+aF6.686520376175548
+aF6.810344827586207
+aF6.934169278996865
+aF7.0579937304075235
+aF7.181818181818182
+aF7.30564263322884
+aF7.429467084639499
+aF7.553291536050157
+aF7.677115987460815
+aF7.800940438871473
+aF7.924764890282131
+aF8.04858934169279
+aF8.172413793103448
+aF8.296238244514107
+aF8.420062695924765
+aF8.543887147335424
+aF8.66771159874608
+aF8.79153605015674
+aF8.915360501567399
+aF9.039184952978056
+aF9.163009404388715
+aF9.286833855799372
+aF9.410658307210031
+aF9.53448275862069
+aF9.658307210031348
+aF9.782131661442007
+aF9.905956112852664
+aF10.029780564263323
+aF10.153605015673982
+aF10.27742946708464
+aF10.401253918495298
+aF10.525078369905955
+aF10.648902821316614
+aF10.772727272727273
+aF10.89655172413793
+aF11.02037617554859
+aF11.144200626959247
+aF11.268025078369906
+aF11.391849529780565
+aF11.515673981191222
+aF11.639498432601881
+aF11.763322884012538
+aF11.887147335423197
+aF12.010971786833856
+aF12.134796238244514
+aF12.258620689655173
+aF12.382445141065832
+aF12.506269592476489
+aF12.630094043887148
+aF12.753918495297805
+aF12.877742946708464
+aF13.001567398119123
+aF13.12539184952978
+aF13.24921630094044
+aF13.373040752351097
+aF13.496865203761756
+aF13.620689655172415
+aF13.744514106583072
+aF13.86833855799373
+aF13.992163009404388
+aF14.115987460815047
+aF14.239811912225706
+aF14.363636363636363
+aF14.487460815047022
+aF14.61128526645768
+aF14.735109717868339
+aF14.858934169278998
+aF14.982758620689655
+aF15.106583072100314
+aF15.230407523510971
+aF15.35423197492163
+aF15.478056426332289
+aF15.601880877742946
+aF15.725705329153605
+aF15.849529780564263
+aF15.973354231974922
+aF16.09717868338558
+aF16.221003134796238
+aF16.344827586206897
+aF16.468652037617556
+aF16.592476489028215
+aF16.71630094043887
+aF16.84012539184953
+aF16.96394984326019
+aF17.087774294670847
+aF17.211598746081506
+aF17.33542319749216
+aF17.45924764890282
+aF17.58307210031348
+aF17.70689655172414
+aF17.830721003134798
+aF17.954545454545453
+aF18.078369905956112
+aF18.20219435736677
+aF18.32601880877743
+aF18.44984326018809
+aF18.573667711598745
+aF18.697492163009404
+aF18.821316614420063
+aF18.94514106583072
+aF19.06896551724138
+aF19.192789968652036
+aF19.316614420062695
+aF19.440438871473354
+aF19.564263322884013
+aF19.688087774294672
+aF19.811912225705328
+aF19.935736677115987
+aF20.059561128526646
+aF20.183385579937305
+aF20.307210031347964
+aF20.43103448275862
+aF20.55485893416928
+aF20.678683385579937
+aF20.802507836990596
+aF20.926332288401255
+aF21.05015673981191
+aF21.17398119122257
+aF21.29780564263323
+aF21.421630094043888
+aF21.545454545454547
+aF21.669278996865202
+aF21.79310344827586
+aF21.91692789968652
+aF22.04075235109718
+aF22.16457680250784
+aF22.288401253918494
+aF22.412225705329153
+aF22.53605015673981
+aF22.65987460815047
+aF22.78369905956113
+aF22.907523510971785
+aF23.031347962382444
+aF23.155172413793103
+aF23.278996865203762
+aF23.40282131661442
+aF23.526645768025077
+aF23.650470219435736
+aF23.774294670846395
+aF23.898119122257054
+aF24.021943573667713
+aF24.145768025078368
+aF24.269592476489027
+aF24.393416927899686
+aF24.517241379310345
+aF24.641065830721004
+aF24.764890282131663
+aF24.88871473354232
+aF25.012539184952978
+aF25.136363636363637
+aF25.260188087774296
+aF25.384012539184955
+aF25.50783699059561
+aF25.63166144200627
+aF25.755485893416928
+aF25.879310344827587
+aF26.003134796238246
+aF26.1269592476489
+aF26.25078369905956
+aF26.37460815047022
+aF26.49843260188088
+aF26.622257053291538
+aF26.746081504702193
+aF26.869905956112852
+aF26.99373040752351
+aF27.11755485893417
+aF27.24137931034483
+aF27.365203761755485
+aF27.489028213166144
+aF27.612852664576803
+aF27.73667711598746
+aF27.86050156739812
+aF27.984326018808776
+aF28.108150470219435
+aF28.231974921630094
+aF28.355799373040753
+aF28.479623824451412
+aF28.603448275862068
+aF28.727272727272727
+aF28.851097178683386
+aF28.974921630094045
+aF29.098746081504704
+aF29.22257053291536
+aF29.346394984326018
+aF29.470219435736677
+aF29.594043887147336
+aF29.717868338557995
+aF29.84169278996865
+aF29.96551724137931
+atp26
+tp27
+Rp28
+aa(lp29
+S'loss_bbox'
+p30
+ag0
+(g22
+g23
+(S'L1Loss'
+p31
+(lp32
+F30.0933
+aF6.64958
+aF0.0
+aF2.07059
+aF11.0709
+aF8.65714
+aF17.2278
+aF8.25461
+aF4.77361
+aF6.94238
+aF0.428899
+aF2.23536
+aF8.31887
+aF7.91986
+aF1.74773
+aF8.04222
+aF7.2015
+aF4.59867
+aF4.91405
+aF4.19587
+aF6.41684
+aF10.7841
+aF3.67899
+aF16.7393
+aF2.88262
+aF2.28122
+aF13.457
+aF6.77646
+aF6.55858
+aF1.62877
+aF2.828
+aF3.54355
+aF6.95567
+aF15.1874
+aF5.69607
+aF2.44276
+aF3.61496
+aF9.02724
+aF1.29351
+aF6.23021
+aF4.73556
+aF3.03332
+aF8.73567
+aF3.14439
+aF5.71948
+aF2.5464
+aF1.69897
+aF1.63302
+aF6.7883
+aF6.63479
+aF1.80818
+aF7.75788
+aF3.07922
+aF1.44484
+aF3.38108
+aF5.56218
+aF2.61379
+aF2.50141
+aF5.97406
+aF2.60727
+aF1.52426
+aF3.22898
+aF1.95281
+aF7.70334
+aF7.90173
+aF4.45308
+aF6.77167
+aF2.37719
+aF0.0
+aF5.32089
+aF2.403
+aF5.67674
+aF4.67549
+aF3.01218
+aF1.02309
+aF0.452825
+aF2.72804
+aF3.89101
+aF0.334605
+aF5.23025
+aF1.00043
+aF6.86475
+aF1.20642
+aF0.52792
+aF5.95092
+aF0.125747
+aF5.22282
+aF2.56073
+aF6.62787
+aF5.88312
+aF3.96537
+aF0.0
+aF4.02106
+aF1.16839
+aF2.83425
+aF9.03261
+aF2.49978
+aF1.84445
+aF2.13837
+aF5.44136
+aF0.770817
+aF5.84843
+aF1.7669
+aF3.27022
+aF4.89516
+aF1.46386
+aF2.27762
+aF2.66007
+aF1.55703
+aF4.16589
+aF0.538477
+aF1.68806
+aF2.77658
+aF6.196
+aF5.61933
+aF2.43959
+aF2.94823
+aF7.64935
+aF12.2964
+aF2.48434
+aF2.93592
+aF8.03054
+aF3.46578
+aF1.97014
+aF2.76516
+aF2.55013
+aF0.52467
+aF2.81041
+aF11.5544
+aF7.85251
+aF2.69692
+aF4.16387
+aF2.06108
+aF3.20285
+aF2.06885
+aF1.89308
+aF5.69768
+aF2.94725
+aF8.48328
+aF6.23382
+aF1.91521
+aF2.91629
+aF4.21659
+aF4.34272
+aF3.36673
+aF4.6411
+aF3.89026
+aF0.677054
+aF5.84477
+aF1.05178
+aF7.04583
+aF1.32014
+aF0.0
+aF0.641476
+aF3.41181
+aF4.04753
+aF1.83122
+aF6.79523
+aF4.55596
+aF0.833847
+aF1.2823
+aF1.82162
+aF2.80167
+aF3.61085
+aF2.04014
+aF2.09603
+aF1.50415
+aF3.77928
+aF2.68302
+aF7.16126
+aF4.99873
+aF3.67677
+aF2.41093
+aF3.2425
+aF1.33079
+aF7.34287
+aF1.18837
+aF5.22624
+aF0.692125
+aF1.6184
+aF10.2809
+aF0.422232
+aF2.23513
+aF1.02775
+aF0.504281
+aF2.94508
+aF2.44944
+aF3.05447
+aF1.7733
+aF5.96559
+aF1.06974
+aF2.55365
+aF3.62603
+aF5.64835
+aF1.64714
+aF2.90383
+aF4.99314
+aF2.1516
+aF1.76746
+aF9.83047
+aF1.94623
+aF2.01966
+aF8.70519
+aF1.14149
+aF1.61555
+aF1.11678
+aF1.2685
+aF1.66067
+aF3.55126
+aF1.05111
+aF3.42992
+aF2.15811
+aF5.27168
+aF4.05865
+aF2.82128
+aF4.16736
+aF0.914269
+aF1.18607
+aF2.31553
+aF9.35411
+aF1.28478
+aF1.18535
+aF3.72539
+aF0.429939
+aF2.22044
+aF1.37667
+aF6.0457
+aF3.67293
+aF4.53135
+aF0.331236
+aF2.22113
+aF3.38204
+aF1.04788
+aF4.00319
+aF1.49946
+aF2.71971
+aF2.90061
+aF6.22548
+aF6.11867
+aF2.03339
+aF2.82607
+aF3.64914
+aF3.42543
+atp33
+tp34
+Rp35
+aa(lp36
+S'loss_coverage'
+p37
+ag0
+(g22
+g23
+(S'EuclideanLoss'
+p38
+(lp39
+F490.384
+aF9.5004
+aF0.00068802
+aF18.0171
+aF43.5008
+aF36.75
+aF39.0038
+aF25.5749
+aF28.3488
+aF23.7306
+aF4.84575
+aF13.594
+aF20.5
+aF16.1233
+aF1.10888
+aF11.4559
+aF17.6763
+aF21.62
+aF3.52688
+aF10.7236
+aF26.4706
+aF24.051
+aF2.64427
+aF14.5995
+aF4.62186
+aF7.90864
+aF19.8321
+aF14.4806
+aF10.8251
+aF4.02473
+aF4.35979
+aF2.9111
+aF12.2213
+aF13.6399
+aF11.9115
+aF10.9079
+aF3.33282
+aF9.38656
+aF6.57379
+aF8.13113
+aF5.68352
+aF2.57109
+aF13.9013
+aF3.52845
+aF7.9562
+aF4.44535
+aF5.5661
+aF2.89496
+aF6.14934
+aF17.8333
+aF3.33133
+aF8.60328
+aF9.20671
+aF0.327846
+aF11.0954
+aF7.5437
+aF2.59948
+aF1.89867
+aF3.99813
+aF0.744882
+aF2.98335
+aF6.80063
+aF2.70261
+aF4.52173
+aF6.06386
+aF8.94749
+aF11.5512
+aF8.60183
+aF0.280988
+aF4.71403
+aF9.37724
+aF18.8247
+aF7.98313
+aF2.17559
+aF0.857785
+aF0.0807811
+aF6.10332
+aF11.6018
+aF0.057299
+aF9.3168
+aF7.41799
+aF13.6052
+aF3.24794
+aF0.841314
+aF5.69923
+aF0.738887
+aF16.6484
+aF7.06445
+aF6.59687
+aF4.30035
+aF10.8807
+aF0.0262537
+aF4.841
+aF1.88482
+aF6.50446
+aF14.2029
+aF0.549152
+aF3.99168
+aF3.7805
+aF5.37953
+aF1.62803
+aF6.1033
+aF3.05907
+aF6.21812
+aF8.26465
+aF1.55095
+aF1.84911
+aF3.05034
+aF5.04648
+aF6.01563
+aF4.1312
+aF2.29164
+aF0.675797
+aF11.4709
+aF9.34117
+aF2.25083
+aF1.77171
+aF7.33958
+aF12.2539
+aF3.13869
+aF3.91493
+aF13.7938
+aF16.0954
+aF3.29071
+aF10.1625
+aF5.30352
+aF0.431011
+aF3.66264
+aF15.7069
+aF12.117
+aF5.86929
+aF9.746
+aF10.1868
+aF6.76344
+aF8.65373
+aF8.567
+aF5.63535
+aF1.95188
+aF10.6088
+aF23.7696
+aF2.25713
+aF12.0818
+aF7.17888
+aF7.07912
+aF4.35019
+aF10.5436
+aF8.01511
+aF1.40394
+aF6.00566
+aF0.0867934
+aF3.76847
+aF1.80369
+aF0.000863163
+aF1.78888
+aF2.14015
+aF10.0223
+aF1.76939
+aF19.9764
+aF4.84209
+aF0.633209
+aF0.604182
+aF4.29833
+aF5.46534
+aF8.39198
+aF4.84648
+aF1.63799
+aF3.59723
+aF2.89854
+aF1.14828
+aF7.28301
+aF7.22889
+aF14.0393
+aF0.674387
+aF3.13969
+aF3.74093
+aF9.47897
+aF0.839031
+aF8.43139
+aF0.448925
+aF1.33874
+aF8.92109
+aF0.0878025
+aF1.59301
+aF0.586626
+aF0.528529
+aF2.89246
+aF5.47019
+aF1.03777
+aF0.942683
+aF6.2161
+aF1.96229
+aF2.5332
+aF7.75561
+aF16.784
+aF0.838209
+aF8.37596
+aF7.8928
+aF1.24193
+aF11.3054
+aF8.81196
+aF2.68949
+aF4.4297
+aF15.915
+aF0.542098
+aF1.0995
+aF1.03498
+aF0.694213
+aF2.62901
+aF8.81439
+aF0.631956
+aF9.80209
+aF15.0996
+aF3.87654
+aF6.34638
+aF8.08799
+aF5.05045
+aF0.799996
+aF3.50569
+aF7.09048
+aF27.7407
+aF1.9905
+aF3.67478
+aF2.32199
+aF0.414882
+aF0.4818
+aF4.99175
+aF10.6817
+aF5.73974
+aF3.65124
+aF0.568987
+aF3.27524
+aF6.96011
+aF0.412855
+aF10.3607
+aF0.943855
+aF5.15364
+aF5.90523
+aF9.15262
+aF8.23246
+aF2.56582
+aF3.55094
+aF7.9746
+aF13.5303
+atp40
+tp41
+Rp42
+aa(lp43
+S'learning_rate'
+p44
+ag0
+(g22
+g23
+(S'LearningRate'
+p45
+(lp46
+F0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF0.0001
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-05
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-06
+aF1e-07
+aF1e-07
+aF1e-07
+atp47
+tp48
+Rp49
+aatp50
+Rp51
+sS'val_outputs'
+p52
+g18
+((lp53
+(lp54
+g21
+ag0
+(g22
+g23
+(g24
+(lp55
+I0
+aF1.0
+aF2.0
+aF3.0
+aF4.0
+aF5.0
+aF6.0
+aF7.0
+aF8.0
+aF9.0
+aF10.0
+aF11.0
+aF12.0
+aF13.0
+aF14.0
+aF15.0
+aF16.0
+aF17.0
+aF18.0
+aF19.0
+aF20.0
+aF21.0
+aF22.0
+aF23.0
+aF24.0
+aF25.0
+aF26.0
+aF27.0
+aF28.0
+aF29.0
+aF30.0
+atp56
+tp57
+Rp58
+aa(lp59
+S'loss_bbox'
+p60
+ag0
+(g22
+g23
+(S'L1Loss'
+p61
+(lp62
+F17.5
+aF4.57999
+aF4.17706
+aF3.79219
+aF3.47142
+aF3.11334
+aF3.0301
+aF2.95398
+aF2.94327
+aF3.10361
+aF2.95635
+aF2.9708
+aF2.89839
+aF2.90986
+aF2.89236
+aF2.82913
+aF2.82528
+aF2.76028
+aF2.77584
+aF2.74111
+aF2.71481
+aF2.71433
+aF2.70211
+aF2.70235
+aF2.69872
+aF2.69509
+aF2.69567
+aF2.68388
+aF2.68547
+aF2.67501
+aF2.6742
+atp63
+tp64
+Rp65
+aa(lp66
+S'loss_coverage'
+p67
+ag0
+(g22
+g23
+(S'EuclideanLoss'
+p68
+(lp69
+F518.427
+aF13.0504
+aF8.98461
+aF7.95901
+aF7.02488
+aF6.54873
+aF6.52973
+aF6.23595
+aF6.40672
+aF6.47405
+aF6.18837
+aF6.16149
+aF5.94733
+aF5.91901
+aF5.86923
+aF5.83603
+aF5.8238
+aF5.80839
+aF5.85881
+aF5.7583
+aF5.69211
+aF5.68279
+aF5.66475
+aF5.66573
+aF5.65672
+aF5.68412
+aF5.66388
+aF5.64449
+aF5.63729
+aF5.61338
+aF5.6697
+atp70
+tp71
+Rp72
+aa(lp73
+S'mAP'
+p74
+ag0
+(g22
+g23
+(S'Python'
+p75
+(lp76
+F0.0
+aF8.07495
+aF15.012
+aF25.4442
+aF30.2611
+aF39.41
+aF43.9072
+aF46.6592
+aF47.9051
+aF41.4878
+aF45.3314
+aF48.4271
+aF48.224
+aF50.0344
+aF51.0647
+aF51.9641
+aF51.1972
+aF53.8499
+aF52.927
+aF53.459
+aF53.5938
+aF53.4171
+aF53.862
+aF54.0565
+aF54.3322
+aF54.364
+aF55.1022
+aF55.0049
+aF55.2739
+aF55.0763
+aF54.9581
+atp77
+tp78
+Rp79
+aa(lp80
+S'precision'
+p81
+ag0
+(g22
+g23
+(S'Python'
+p82
+(lp83
+F0.0
+aF37.8159
+aF53.4279
+aF64.1654
+aF66.2082
+aF71.7141
+aF72.8683
+aF73.9123
+aF73.3563
+aF73.0304
+aF72.3609
+aF75.0591
+aF74.6506
+aF75.8968
+aF76.3935
+aF76.79
+aF75.6251
+aF77.1933
+aF76.6844
+aF76.9517
+aF77.2144
+aF77.1216
+aF77.3056
+aF77.4715
+aF77.9543
+aF77.5958
+aF77.9771
+aF77.7921
+aF78.1803
+aF77.8535
+aF77.1607
+atp84
+tp85
+Rp86
+aa(lp87
+S'recall'
+p88
+ag0
+(g22
+g23
+(S'Python'
+p89
+(lp90
+F0.0
+aF10.4092
+aF18.9627
+aF34.1347
+aF41.0709
+aF52.3513
+aF57.1764
+aF60.3986
+aF62.2984
+aF53.7081
+aF59.7457
+aF62.2399
+aF62.4953
+aF64.0173
+aF64.7661
+aF65.7439
+aF65.5399
+aF67.9146
+aF66.7672
+aF67.4839
+aF67.0977
+aF67.0644
+aF67.7373
+aF67.8275
+aF67.8878
+aF68.2052
+aF68.605
+aF68.8288
+aF68.6964
+aF68.9554
+aF69.2437
+atp91
+tp92
+Rp93
+aatp94
+Rp95
+sS'loaded_snapshot_epoch'
+p96
+NsS'pretrained_model'
+p97
+V/home/scu508/bvlc_googlenet.caffemodel
+p98
+sS'deploy_file'
+p99
+S'deploy.prototxt'
+p100
+sS'current_iteration'
+p101
+I19140
+sS'crop_size'
+p102
+NsS'rms_decay'
+p103
+F0.99
+sS'last_train_update'
+p104
+F1481606078.817645
+sS'train_epochs'
+p105
+I30
+sS'network'
+p106
+ccaffe_pb2
+NetParameter
+p107
+(tRp108
+(dp109
+S'serialized'
+p110
+S'\n\tDetectNet\xa2\x06k\n\ntrain_data\x12\x04Data"\x04dataB\x02\x08\x00\xda\x06L\nF/home/scu508/digits/digits/jobs/20161213-101330-681b/train_db/features \n@\x01\xa2\x06k\n\x0btrain_label\x12\x04Data"\x05labelB\x02\x08\x00\xda\x06J\nD/home/scu508/digits/digits/jobs/20161213-101330-681b/train_db/labels \n@\x01\xa2\x06l\n\x08val_data\x12\x04Data"\x04dataB\x07\x08\x01"\x03val\xda\x06J\nD/home/scu508/digits/digits/jobs/20161213-101330-681b/val_db/features \x06@\x01\xa2\x06l\n\tval_label\x12\x04Data"\x05labelB\x07\x08\x01"\x03val\xda\x06H\nB/home/scu508/digits/digits/jobs/20161213-101330-681b/val_db/labels \x06@\x01\xa2\x060\n\x0bdeploy_data\x12\x05Input"\x04dataB\x07\x08\x01*\x03val\xfa\x08\n\n\x08\n\x06\x01\x03\x80\x03\xe0\t\xa2\x06\xc8\x01\n\x0ftrain_transform\x12\x17DetectNetTransformation\x1a\x04data\x1a\x05label"\x10transformed_data"\x11transformed_labelB\x02\x08\x00\xa2\x06\x05-\x00\x00\xfeB\x8a\xa9\x03\x1d\x08\x10\x15\xcd\xcc\xcc>\x18\x01(\x148\x00@\xe0\tH\x80\x03X\x01`\x01j\x04\x08\x01\x10\x00\x92\xa9\x03;\r\x00\x00\x80?\x10 \x18 %\xcd\xcc\xcc>-\xcd\xccL?5\x9a\x99\x99?=\x00\x00\x00?E\x00\x00\x00\x00M\x00\x00\xa0@U\xcd\xccL?]\x00\x00\xf0Ae\xcd\xccL?m\xcd\xccL?\xa2\x06\x8c\x01\n\rval_transform\x12\x17DetectNetTransformation\x1a\x04data\x1a\x05label"\x10transformed_data"\x11transformed_labelB\x07\x08\x01"\x03val\xa2\x06\x05-\x00\x00\xfeB\x8a\xa9\x03\x1d\x08\x10\x15\xcd\xcc\xcc>\x18\x01(\x148\x00@\xe0\tH\x80\x03X\x01`\x00j\x04\x08\x01\x10\x00\xa2\x06B\n\x10deploy_transform\x12\x05Power\x1a\x04data"\x10transformed_dataB\x07\x08\x01*\x03val\xd2\x07\x05\x1d\x00\x00\xfe\xc2\xa2\x06\x86\x01\n\x0bslice-label\x12\x05Slice\x1a\x11transformed_label"\x10foreground-label"\nbbox-label"\nsize-label"\tobj-label"\x0ecoverage-labelB\x02\x08\x00B\x07\x08\x01"\x03val\xf2\x07\n\x08\x01\x10\x01\x10\x05\x10\x07\x10\x08\xa2\x06\x82\x01\n\x0ecoverage-block\x12\x06Concat\x1a\x10foreground-label\x1a\x10foreground-label\x1a\x10foreground-label\x1a\x10foreground-label"\x0ecoverage-blockB\x02\x08\x00B\x07\x08\x01"\x03val\xc2\x06\x02\x08\x01\xa2\x06J\n\nsize-block\x12\x06Concat\x1a\nsize-label\x1a\nsize-label"\nsize-blockB\x02\x08\x00B\x07\x08\x01"\x03val\xc2\x06\x02\x08\x01\xa2\x06\\\n\tobj-block\x12\x06Concat\x1a\tobj-label\x1a\tobj-label\x1a\tobj-label\x1a\tobj-label"\tobj-blockB\x02\x08\x00B\x07\x08\x01"\x03val\xc2\x06\x02\x08\x01\xa2\x06S\n\rbb-label-norm\x12\x07Eltwise\x1a\nbbox-label\x1a\nsize-block"\x0fbbox-label-normB\x02\x08\x00B\x07\x08\x01"\x03val\xf2\x06\x02\x08\x00\xa2\x06Y\n\x0bbb-obj-norm\x12\x07Eltwise\x1a\x0fbbox-label-norm\x1a\tobj-block"\x13bbox-obj-label-normB\x02\x08\x00B\x07\x08\x01"\x03val\xf2\x06\x02\x08\x00\xa2\x06~\n\x0cconv1/7x7_s2\x12\x0bConvolution\x1a\x10transformed_data"\x0cconv1/7x7_s22\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06(\x08@\x18\x03 \x070\x02:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x062\n\x0econv1/relu_7x7\x12\x04ReLU\x1a\x0cconv1/7x7_s2"\x0cconv1/7x7_s2\xa2\x06<\n\x0cpool1/3x3_s2\x12\x07Pooling\x1a\x0cconv1/7x7_s2"\x0cpool1/3x3_s2\xca\x07\x06\x08\x00\x10\x03\x18\x02\xa2\x06<\n\x0bpool1/norm1\x12\x03LRN\x1a\x0cpool1/3x3_s2"\x0bpool1/norm1\xb2\x07\x0c\x08\x05\x15\x17\xb7\xd18\x1d\x00\x00@?\xa2\x06}\n\x10conv2/3x3_reduce\x12\x0bConvolution\x1a\x0bpool1/norm1"\x10conv2/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08@ \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15conv2/relu_3x3_reduce\x12\x04ReLU\x1a\x10conv2/3x3_reduce"\x10conv2/3x3_reduce\xa2\x06w\n\tconv2/3x3\x12\x0bConvolution\x1a\x10conv2/3x3_reduce"\tconv2/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\xc0\x01\x18\x01 \x03:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06,\n\x0econv2/relu_3x3\x12\x04ReLU\x1a\tconv2/3x3"\tconv2/3x3\xa2\x069\n\x0bconv2/norm2\x12\x03LRN\x1a\tconv2/3x3"\x0bconv2/norm2\xb2\x07\x0c\x08\x05\x15\x17\xb7\xd18\x1d\x00\x00@?\xa2\x06;\n\x0cpool2/3x3_s2\x12\x07Pooling\x1a\x0bconv2/norm2"\x0cpool2/3x3_s2\xca\x07\x06\x08\x00\x10\x03\x18\x02\xa2\x06~\n\x10inception_3a/1x1\x12\x0bConvolution\x1a\x0cpool2/3x3_s2"\x10inception_3a/1x12\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08@ \x01:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_3a/relu_1x1\x12\x04ReLU\x1a\x10inception_3a/1x1"\x10inception_3a/1x1\xa2\x06\x8c\x01\n\x17inception_3a/3x3_reduce\x12\x0bConvolution\x1a\x0cpool2/3x3_s2"\x17inception_3a/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08` \x01:\r\n\x06xavier5\xecQ\xb8=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_3a/relu_3x3_reduce\x12\x04ReLU\x1a\x17inception_3a/3x3_reduce"\x17inception_3a/3x3_reduce\xa2\x06\x8c\x01\n\x10inception_3a/3x3\x12\x0bConvolution\x1a\x17inception_3a/3x3_reduce"\x10inception_3a/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\x80\x01\x18\x01 \x03:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_3a/relu_3x3\x12\x04ReLU\x1a\x10inception_3a/3x3"\x10inception_3a/3x3\xa2\x06\x8c\x01\n\x17inception_3a/5x5_reduce\x12\x0bConvolution\x1a\x0cpool2/3x3_s2"\x17inception_3a/5x5_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08\x10 \x01:\r\n\x06xavier5\xcd\xccL>B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_3a/relu_5x5_reduce\x12\x04ReLU\x1a\x17inception_3a/5x5_reduce"\x17inception_3a/5x5_reduce\xa2\x06\x8b\x01\n\x10inception_3a/5x5\x12\x0bConvolution\x1a\x17inception_3a/5x5_reduce"\x10inception_3a/5x52\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06&\x08 \x18\x02 \x05:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_3a/relu_5x5\x12\x04ReLU\x1a\x10inception_3a/5x5"\x10inception_3a/5x5\xa2\x06H\n\x11inception_3a/pool\x12\x07Pooling\x1a\x0cpool2/3x3_s2"\x11inception_3a/pool\xca\x07\x08\x08\x00\x10\x03\x18\x01 \x01\xa2\x06\x8f\x01\n\x16inception_3a/pool_proj\x12\x0bConvolution\x1a\x11inception_3a/pool"\x16inception_3a/pool_proj2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08  \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06S\n\x1binception_3a/relu_pool_proj\x12\x04ReLU\x1a\x16inception_3a/pool_proj"\x16inception_3a/pool_proj\xa2\x06\x80\x01\n\x13inception_3a/output\x12\x06Concat\x1a\x10inception_3a/1x1\x1a\x10inception_3a/3x3\x1a\x10inception_3a/5x5\x1a\x16inception_3a/pool_proj"\x13inception_3a/output\xa2\x06\x86\x01\n\x10inception_3b/1x1\x12\x0bConvolution\x1a\x13inception_3a/output"\x10inception_3b/1x12\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x01 \x01:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_3b/relu_1x1\x12\x04ReLU\x1a\x10inception_3b/1x1"\x10inception_3b/1x1\xa2\x06\x94\x01\n\x17inception_3b/3x3_reduce\x12\x0bConvolution\x1a\x13inception_3a/output"\x17inception_3b/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x01 \x01:\r\n\x06xavier5\xecQ\xb8=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_3b/relu_3x3_reduce\x12\x04ReLU\x1a\x17inception_3b/3x3_reduce"\x17inception_3b/3x3_reduce\xa2\x06\x8c\x01\n\x10inception_3b/3x3\x12\x0bConvolution\x1a\x17inception_3b/3x3_reduce"\x10inception_3b/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\xc0\x01\x18\x01 \x03:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_3b/relu_3x3\x12\x04ReLU\x1a\x10inception_3b/3x3"\x10inception_3b/3x3\xa2\x06\x93\x01\n\x17inception_3b/5x5_reduce\x12\x0bConvolution\x1a\x13inception_3a/output"\x17inception_3b/5x5_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08  \x01:\r\n\x06xavier5\xcd\xccL>B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_3b/relu_5x5_reduce\x12\x04ReLU\x1a\x17inception_3b/5x5_reduce"\x17inception_3b/5x5_reduce\xa2\x06\x8b\x01\n\x10inception_3b/5x5\x12\x0bConvolution\x1a\x17inception_3b/5x5_reduce"\x10inception_3b/5x52\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06&\x08`\x18\x02 \x05:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_3b/relu_5x5\x12\x04ReLU\x1a\x10inception_3b/5x5"\x10inception_3b/5x5\xa2\x06O\n\x11inception_3b/pool\x12\x07Pooling\x1a\x13inception_3a/output"\x11inception_3b/pool\xca\x07\x08\x08\x00\x10\x03\x18\x01 \x01\xa2\x06\x8f\x01\n\x16inception_3b/pool_proj\x12\x0bConvolution\x1a\x11inception_3b/pool"\x16inception_3b/pool_proj2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08@ \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06S\n\x1binception_3b/relu_pool_proj\x12\x04ReLU\x1a\x16inception_3b/pool_proj"\x16inception_3b/pool_proj\xa2\x06\x80\x01\n\x13inception_3b/output\x12\x06Concat\x1a\x10inception_3b/1x1\x1a\x10inception_3b/3x3\x1a\x10inception_3b/5x5\x1a\x16inception_3b/pool_proj"\x13inception_3b/output\xa2\x06C\n\x0cpool3/3x3_s2\x12\x07Pooling\x1a\x13inception_3b/output"\x0cpool3/3x3_s2\xca\x07\x06\x08\x00\x10\x03\x18\x02\xa2\x06\x7f\n\x10inception_4a/1x1\x12\x0bConvolution\x1a\x0cpool3/3x3_s2"\x10inception_4a/1x12\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\xc0\x01 \x01:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4a/relu_1x1\x12\x04ReLU\x1a\x10inception_4a/1x1"\x10inception_4a/1x1\xa2\x06\x8c\x01\n\x17inception_4a/3x3_reduce\x12\x0bConvolution\x1a\x0cpool3/3x3_s2"\x17inception_4a/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08` \x01:\r\n\x06xavier5\xecQ\xb8=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4a/relu_3x3_reduce\x12\x04ReLU\x1a\x17inception_4a/3x3_reduce"\x17inception_4a/3x3_reduce\xa2\x06\x8c\x01\n\x10inception_4a/3x3\x12\x0bConvolution\x1a\x17inception_4a/3x3_reduce"\x10inception_4a/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\xd0\x01\x18\x01 \x03:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4a/relu_3x3\x12\x04ReLU\x1a\x10inception_4a/3x3"\x10inception_4a/3x3\xa2\x06\x8c\x01\n\x17inception_4a/5x5_reduce\x12\x0bConvolution\x1a\x0cpool3/3x3_s2"\x17inception_4a/5x5_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08\x10 \x01:\r\n\x06xavier5\xcd\xccL>B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4a/relu_5x5_reduce\x12\x04ReLU\x1a\x17inception_4a/5x5_reduce"\x17inception_4a/5x5_reduce\xa2\x06\x8b\x01\n\x10inception_4a/5x5\x12\x0bConvolution\x1a\x17inception_4a/5x5_reduce"\x10inception_4a/5x52\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06&\x080\x18\x02 \x05:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4a/relu_5x5\x12\x04ReLU\x1a\x10inception_4a/5x5"\x10inception_4a/5x5\xa2\x06H\n\x11inception_4a/pool\x12\x07Pooling\x1a\x0cpool3/3x3_s2"\x11inception_4a/pool\xca\x07\x08\x08\x00\x10\x03\x18\x01 \x01\xa2\x06\x8f\x01\n\x16inception_4a/pool_proj\x12\x0bConvolution\x1a\x11inception_4a/pool"\x16inception_4a/pool_proj2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08@ \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06S\n\x1binception_4a/relu_pool_proj\x12\x04ReLU\x1a\x16inception_4a/pool_proj"\x16inception_4a/pool_proj\xa2\x06\x80\x01\n\x13inception_4a/output\x12\x06Concat\x1a\x10inception_4a/1x1\x1a\x10inception_4a/3x3\x1a\x10inception_4a/5x5\x1a\x16inception_4a/pool_proj"\x13inception_4a/output\xa2\x06\x86\x01\n\x10inception_4b/1x1\x12\x0bConvolution\x1a\x13inception_4a/output"\x10inception_4b/1x12\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\xa0\x01 \x01:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4b/relu_1x1\x12\x04ReLU\x1a\x10inception_4b/1x1"\x10inception_4b/1x1\xa2\x06\x93\x01\n\x17inception_4b/3x3_reduce\x12\x0bConvolution\x1a\x13inception_4a/output"\x17inception_4b/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08p \x01:\r\n\x06xavier5\xecQ\xb8=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4b/relu_3x3_reduce\x12\x04ReLU\x1a\x17inception_4b/3x3_reduce"\x17inception_4b/3x3_reduce\xa2\x06\x8c\x01\n\x10inception_4b/3x3\x12\x0bConvolution\x1a\x17inception_4b/3x3_reduce"\x10inception_4b/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\xe0\x01\x18\x01 \x03:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4b/relu_3x3\x12\x04ReLU\x1a\x10inception_4b/3x3"\x10inception_4b/3x3\xa2\x06\x93\x01\n\x17inception_4b/5x5_reduce\x12\x0bConvolution\x1a\x13inception_4a/output"\x17inception_4b/5x5_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08\x18 \x01:\r\n\x06xavier5\xcd\xccL>B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4b/relu_5x5_reduce\x12\x04ReLU\x1a\x17inception_4b/5x5_reduce"\x17inception_4b/5x5_reduce\xa2\x06\x8b\x01\n\x10inception_4b/5x5\x12\x0bConvolution\x1a\x17inception_4b/5x5_reduce"\x10inception_4b/5x52\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06&\x08@\x18\x02 \x05:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4b/relu_5x5\x12\x04ReLU\x1a\x10inception_4b/5x5"\x10inception_4b/5x5\xa2\x06O\n\x11inception_4b/pool\x12\x07Pooling\x1a\x13inception_4a/output"\x11inception_4b/pool\xca\x07\x08\x08\x00\x10\x03\x18\x01 \x01\xa2\x06\x8f\x01\n\x16inception_4b/pool_proj\x12\x0bConvolution\x1a\x11inception_4b/pool"\x16inception_4b/pool_proj2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08@ \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06S\n\x1binception_4b/relu_pool_proj\x12\x04ReLU\x1a\x16inception_4b/pool_proj"\x16inception_4b/pool_proj\xa2\x06\x80\x01\n\x13inception_4b/output\x12\x06Concat\x1a\x10inception_4b/1x1\x1a\x10inception_4b/3x3\x1a\x10inception_4b/5x5\x1a\x16inception_4b/pool_proj"\x13inception_4b/output\xa2\x06\x86\x01\n\x10inception_4c/1x1\x12\x0bConvolution\x1a\x13inception_4b/output"\x10inception_4c/1x12\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x01 \x01:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4c/relu_1x1\x12\x04ReLU\x1a\x10inception_4c/1x1"\x10inception_4c/1x1\xa2\x06\x94\x01\n\x17inception_4c/3x3_reduce\x12\x0bConvolution\x1a\x13inception_4b/output"\x17inception_4c/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x01 \x01:\r\n\x06xavier5\xecQ\xb8=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4c/relu_3x3_reduce\x12\x04ReLU\x1a\x17inception_4c/3x3_reduce"\x17inception_4c/3x3_reduce\xa2\x06\x8c\x01\n\x10inception_4c/3x3\x12\x0bConvolution\x1a\x17inception_4c/3x3_reduce"\x10inception_4c/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\x80\x02\x18\x01 \x03:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4c/relu_3x3\x12\x04ReLU\x1a\x10inception_4c/3x3"\x10inception_4c/3x3\xa2\x06\x93\x01\n\x17inception_4c/5x5_reduce\x12\x0bConvolution\x1a\x13inception_4b/output"\x17inception_4c/5x5_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08\x18 \x01:\r\n\x06xavier5\xcd\xccL>B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4c/relu_5x5_reduce\x12\x04ReLU\x1a\x17inception_4c/5x5_reduce"\x17inception_4c/5x5_reduce\xa2\x06\x8b\x01\n\x10inception_4c/5x5\x12\x0bConvolution\x1a\x17inception_4c/5x5_reduce"\x10inception_4c/5x52\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06&\x08@\x18\x02 \x05:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4c/relu_5x5\x12\x04ReLU\x1a\x10inception_4c/5x5"\x10inception_4c/5x5\xa2\x06O\n\x11inception_4c/pool\x12\x07Pooling\x1a\x13inception_4b/output"\x11inception_4c/pool\xca\x07\x08\x08\x00\x10\x03\x18\x01 \x01\xa2\x06\x8f\x01\n\x16inception_4c/pool_proj\x12\x0bConvolution\x1a\x11inception_4c/pool"\x16inception_4c/pool_proj2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08@ \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06S\n\x1binception_4c/relu_pool_proj\x12\x04ReLU\x1a\x16inception_4c/pool_proj"\x16inception_4c/pool_proj\xa2\x06\x80\x01\n\x13inception_4c/output\x12\x06Concat\x1a\x10inception_4c/1x1\x1a\x10inception_4c/3x3\x1a\x10inception_4c/5x5\x1a\x16inception_4c/pool_proj"\x13inception_4c/output\xa2\x06\x85\x01\n\x10inception_4d/1x1\x12\x0bConvolution\x1a\x13inception_4c/output"\x10inception_4d/1x12\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08p \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4d/relu_1x1\x12\x04ReLU\x1a\x10inception_4d/1x1"\x10inception_4d/1x1\xa2\x06\x94\x01\n\x17inception_4d/3x3_reduce\x12\x0bConvolution\x1a\x13inception_4c/output"\x17inception_4d/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x90\x01 \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4d/relu_3x3_reduce\x12\x04ReLU\x1a\x17inception_4d/3x3_reduce"\x17inception_4d/3x3_reduce\xa2\x06\x8c\x01\n\x10inception_4d/3x3\x12\x0bConvolution\x1a\x17inception_4d/3x3_reduce"\x10inception_4d/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\xa0\x02\x18\x01 \x03:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4d/relu_3x3\x12\x04ReLU\x1a\x10inception_4d/3x3"\x10inception_4d/3x3\xa2\x06\x93\x01\n\x17inception_4d/5x5_reduce\x12\x0bConvolution\x1a\x13inception_4c/output"\x17inception_4d/5x5_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08  \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4d/relu_5x5_reduce\x12\x04ReLU\x1a\x17inception_4d/5x5_reduce"\x17inception_4d/5x5_reduce\xa2\x06\x8b\x01\n\x10inception_4d/5x5\x12\x0bConvolution\x1a\x17inception_4d/5x5_reduce"\x10inception_4d/5x52\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06&\x08@\x18\x02 \x05:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4d/relu_5x5\x12\x04ReLU\x1a\x10inception_4d/5x5"\x10inception_4d/5x5\xa2\x06O\n\x11inception_4d/pool\x12\x07Pooling\x1a\x13inception_4c/output"\x11inception_4d/pool\xca\x07\x08\x08\x00\x10\x03\x18\x01 \x01\xa2\x06\x8f\x01\n\x16inception_4d/pool_proj\x12\x0bConvolution\x1a\x11inception_4d/pool"\x16inception_4d/pool_proj2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08@ \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06S\n\x1binception_4d/relu_pool_proj\x12\x04ReLU\x1a\x16inception_4d/pool_proj"\x16inception_4d/pool_proj\xa2\x06\x80\x01\n\x13inception_4d/output\x12\x06Concat\x1a\x10inception_4d/1x1\x1a\x10inception_4d/3x3\x1a\x10inception_4d/5x5\x1a\x16inception_4d/pool_proj"\x13inception_4d/output\xa2\x06\x86\x01\n\x10inception_4e/1x1\x12\x0bConvolution\x1a\x13inception_4d/output"\x10inception_4e/1x12\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x02 \x01:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4e/relu_1x1\x12\x04ReLU\x1a\x10inception_4e/1x1"\x10inception_4e/1x1\xa2\x06\x94\x01\n\x17inception_4e/3x3_reduce\x12\x0bConvolution\x1a\x13inception_4d/output"\x17inception_4e/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\xa0\x01 \x01:\r\n\x06xavier5\xecQ\xb8=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4e/relu_3x3_reduce\x12\x04ReLU\x1a\x17inception_4e/3x3_reduce"\x17inception_4e/3x3_reduce\xa2\x06\x8c\x01\n\x10inception_4e/3x3\x12\x0bConvolution\x1a\x17inception_4e/3x3_reduce"\x10inception_4e/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\xc0\x02\x18\x01 \x03:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4e/relu_3x3\x12\x04ReLU\x1a\x10inception_4e/3x3"\x10inception_4e/3x3\xa2\x06\x93\x01\n\x17inception_4e/5x5_reduce\x12\x0bConvolution\x1a\x13inception_4d/output"\x17inception_4e/5x5_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08  \x01:\r\n\x06xavier5\xcd\xccL>B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_4e/relu_5x5_reduce\x12\x04ReLU\x1a\x17inception_4e/5x5_reduce"\x17inception_4e/5x5_reduce\xa2\x06\x8c\x01\n\x10inception_4e/5x5\x12\x0bConvolution\x1a\x17inception_4e/5x5_reduce"\x10inception_4e/5x52\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\x80\x01\x18\x02 \x05:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_4e/relu_5x5\x12\x04ReLU\x1a\x10inception_4e/5x5"\x10inception_4e/5x5\xa2\x06O\n\x11inception_4e/pool\x12\x07Pooling\x1a\x13inception_4d/output"\x11inception_4e/pool\xca\x07\x08\x08\x00\x10\x03\x18\x01 \x01\xa2\x06\x90\x01\n\x16inception_4e/pool_proj\x12\x0bConvolution\x1a\x11inception_4e/pool"\x16inception_4e/pool_proj2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x01 \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06S\n\x1binception_4e/relu_pool_proj\x12\x04ReLU\x1a\x16inception_4e/pool_proj"\x16inception_4e/pool_proj\xa2\x06\x80\x01\n\x13inception_4e/output\x12\x06Concat\x1a\x10inception_4e/1x1\x1a\x10inception_4e/3x3\x1a\x10inception_4e/5x5\x1a\x16inception_4e/pool_proj"\x13inception_4e/output\xa2\x06\x86\x01\n\x10inception_5a/1x1\x12\x0bConvolution\x1a\x13inception_4e/output"\x10inception_5a/1x12\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x02 \x01:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_5a/relu_1x1\x12\x04ReLU\x1a\x10inception_5a/1x1"\x10inception_5a/1x1\xa2\x06\x94\x01\n\x17inception_5a/3x3_reduce\x12\x0bConvolution\x1a\x13inception_4e/output"\x17inception_5a/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\xa0\x01 \x01:\r\n\x06xavier5\xecQ\xb8=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_5a/relu_3x3_reduce\x12\x04ReLU\x1a\x17inception_5a/3x3_reduce"\x17inception_5a/3x3_reduce\xa2\x06\x8c\x01\n\x10inception_5a/3x3\x12\x0bConvolution\x1a\x17inception_5a/3x3_reduce"\x10inception_5a/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\xc0\x02\x18\x01 \x03:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_5a/relu_3x3\x12\x04ReLU\x1a\x10inception_5a/3x3"\x10inception_5a/3x3\xa2\x06\x93\x01\n\x17inception_5a/5x5_reduce\x12\x0bConvolution\x1a\x13inception_4e/output"\x17inception_5a/5x5_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08  \x01:\r\n\x06xavier5\xcd\xccL>B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_5a/relu_5x5_reduce\x12\x04ReLU\x1a\x17inception_5a/5x5_reduce"\x17inception_5a/5x5_reduce\xa2\x06\x8c\x01\n\x10inception_5a/5x5\x12\x0bConvolution\x1a\x17inception_5a/5x5_reduce"\x10inception_5a/5x52\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\x80\x01\x18\x02 \x05:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_5a/relu_5x5\x12\x04ReLU\x1a\x10inception_5a/5x5"\x10inception_5a/5x5\xa2\x06O\n\x11inception_5a/pool\x12\x07Pooling\x1a\x13inception_4e/output"\x11inception_5a/pool\xca\x07\x08\x08\x00\x10\x03\x18\x01 \x01\xa2\x06\x90\x01\n\x16inception_5a/pool_proj\x12\x0bConvolution\x1a\x11inception_5a/pool"\x16inception_5a/pool_proj2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x01 \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06S\n\x1binception_5a/relu_pool_proj\x12\x04ReLU\x1a\x16inception_5a/pool_proj"\x16inception_5a/pool_proj\xa2\x06\x80\x01\n\x13inception_5a/output\x12\x06Concat\x1a\x10inception_5a/1x1\x1a\x10inception_5a/3x3\x1a\x10inception_5a/5x5\x1a\x16inception_5a/pool_proj"\x13inception_5a/output\xa2\x06\x86\x01\n\x10inception_5b/1x1\x12\x0bConvolution\x1a\x13inception_5a/output"\x10inception_5b/1x12\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x03 \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_5b/relu_1x1\x12\x04ReLU\x1a\x10inception_5b/1x1"\x10inception_5b/1x1\xa2\x06\x94\x01\n\x17inception_5b/3x3_reduce\x12\x0bConvolution\x1a\x13inception_5a/output"\x17inception_5b/3x3_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x80?%\x00\x00\x00\x00\xd2\x06%\x08\xc0\x01 \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_5b/relu_3x3_reduce\x12\x04ReLU\x1a\x17inception_5b/3x3_reduce"\x17inception_5b/3x3_reduce\xa2\x06\x8c\x01\n\x10inception_5b/3x3\x12\x0bConvolution\x1a\x17inception_5b/3x3_reduce"\x10inception_5b/3x32\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\x80\x03\x18\x01 \x03:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_5b/relu_3x3\x12\x04ReLU\x1a\x10inception_5b/3x3"\x10inception_5b/3x3\xa2\x06\x93\x01\n\x17inception_5b/5x5_reduce\x12\x0bConvolution\x1a\x13inception_5a/output"\x17inception_5b/5x5_reduce2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x080 \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06V\n\x1cinception_5b/relu_5x5_reduce\x12\x04ReLU\x1a\x17inception_5b/5x5_reduce"\x17inception_5b/5x5_reduce\xa2\x06\x8c\x01\n\x10inception_5b/5x5\x12\x0bConvolution\x1a\x17inception_5b/5x5_reduce"\x10inception_5b/5x52\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06\'\x08\x80\x01\x18\x02 \x05:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06A\n\x15inception_5b/relu_5x5\x12\x04ReLU\x1a\x10inception_5b/5x5"\x10inception_5b/5x5\xa2\x06O\n\x11inception_5b/pool\x12\x07Pooling\x1a\x13inception_5a/output"\x11inception_5b/pool\xca\x07\x08\x08\x00\x10\x03\x18\x01 \x01\xa2\x06\x90\x01\n\x16inception_5b/pool_proj\x12\x0bConvolution\x1a\x11inception_5b/pool"\x16inception_5b/pool_proj2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06%\x08\x80\x01 \x01:\r\n\x06xavier5\xcd\xcc\xcc=B\x0f\n\x08constant\x15\xcd\xccL>\xa2\x06S\n\x1binception_5b/relu_pool_proj\x12\x04ReLU\x1a\x16inception_5b/pool_proj"\x16inception_5b/pool_proj\xa2\x06\x80\x01\n\x13inception_5b/output\x12\x06Concat\x1a\x10inception_5b/1x1\x1a\x10inception_5b/3x3\x1a\x10inception_5b/5x5\x1a\x16inception_5b/pool_proj"\x13inception_5b/output\xa2\x06D\n\rpool5/drop_s1\x12\x07Dropout\x1a\x13inception_5b/output"\rpool5/drop_s1\xe2\x06\x05\r\xcd\xcc\xcc>\xa2\x06{\n\x0ecvg/classifier\x12\x0bConvolution\x1a\rpool5/drop_s1"\x0ecvg/classifier2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08\x01 \x01:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\x00\x00\x00\x00\xa2\x061\n\x0ccoverage/sig\x12\x07Sigmoid\x1a\x0ecvg/classifier"\x08coverage\xa2\x06s\n\x0ebbox/regressor\x12\x0bConvolution\x1a\rpool5/drop_s1"\x06bboxes2\n\x1d\x00\x00\x80?%\x00\x00\x80?2\n\x1d\x00\x00\x00@%\x00\x00\x00\x00\xd2\x06$\x08\x04 \x01:\r\n\x06xavier5\x8f\xc2\xf5<B\x0f\n\x08constant\x15\x00\x00\x00\x00\xa2\x06M\n\tbbox_mask\x12\x07Eltwise\x1a\x06bboxes\x1a\x0ecoverage-block"\rbboxes-maskedB\x02\x08\x00B\x07\x08\x01"\x03val\xf2\x06\x02\x08\x00\xa2\x06U\n\tbbox-norm\x12\x07Eltwise\x1a\rbboxes-masked\x1a\nsize-block"\x12bboxes-masked-normB\x02\x08\x00B\x07\x08\x01"\x03val\xf2\x06\x02\x08\x00\xa2\x06a\n\rbbox-obj-norm\x12\x07Eltwise\x1a\x12bboxes-masked-norm\x1a\tobj-block"\x16bboxes-obj-masked-normB\x02\x08\x00B\x07\x08\x01"\x03val\xf2\x06\x02\x08\x00\xa2\x06]\n\tbbox_loss\x12\x06L1Loss\x1a\x16bboxes-obj-masked-norm\x1a\x13bbox-obj-label-norm"\tloss_bbox-\x00\x00\x00@B\x02\x08\x00B\x07\x08\x01"\x03val\xa2\x06T\n\rcoverage_loss\x12\rEuclideanLoss\x1a\x08coverage\x1a\x0ecoverage-label"\rloss_coverageB\x02\x08\x00B\x07\x08\x01"\x03val\xa2\x06\x8f\x01\n\x07cluster\x12\x06Python\x1a\x08coverage\x1a\x06bboxes"\tbbox-listB\x02\x08\x01\x92\x08Z\n!caffe.layers.detectnet.clustering\x12\x11ClusterDetections\x1a"1248, 352, 16, 0.6, 3, 0.02, 22, 1\xa2\x06\x96\x01\n\ncluster_gt\x12\x06Python\x1a\x0ecoverage-label\x1a\nbbox-label"\x0fbbox-list-labelB\x07\x08\x01"\x03val\x92\x08I\n!caffe.layers.detectnet.clustering\x12\x12ClusterGroundtruth\x1a\x101248, 352, 16, 1\xa2\x06z\n\x05score\x12\x06Python\x1a\x0fbbox-list-label\x1a\tbbox-list"\x10bbox-list-scoredB\x07\x08\x01"\x03val\x92\x081\n\x1ecaffe.layers.detectnet.mean_ap\x12\x0fScoreDetections\xa2\x06w\n\x03mAP\x12\x06Python\x1a\x10bbox-list-scored"\x03mAP"\tprecision"\x06recallB\x07\x08\x01"\x03val\x92\x084\n\x1ecaffe.layers.detectnet.mean_ap\x12\x03mAP\x1a\r1248, 352, 16'
+p111
+sbsS'use_mean'
+p112
+Vimage
+p113
+sS'model_file'
+p114
+S'original.prototxt'
+p115
+sS'job_dir'
+p116
+S'/home/scu508/digits/digits/jobs/20161213-104005-f423'
+p117
+sS'receiving_val_output'
+p118
+I00
+sS'parents'
+p119
+NsS'caffe_flavor'
+p120
+S'NVIDIA'
+p121
+sS'gpu_count'
+p122
+I1
+sS'receiving_train_output'
+p123
+I00
+sS'val_interval'
+p124
+F1.0
+sS'current_epoch'
+p125
+F30.0
+sS'random_seed'
+p126
+NsS'saving_snapshot'
+p127
+I00
+sS'pickver_task_caffe_train'
+p128
+I5
+sg44
+F0.0001
+sS'loaded_snapshot_file'
+p129
+NsS'batch_size'
+p130
+I2
+sS'digits_version'
+p131
+S'5.1-dev'
+p132
+sS'job'
+p133
+g4
+sS'progress'
+p134
+F1.0
+sS'current_resources'
+p135
+NsS'pickver_task'
+p136
+I1
+sS'lr_policy'
+p137
+(dp138
+S'policy'
+p139
+Vstep
+p140
+sS'stepsize'
+p141
+F33.0
+sS'gamma'
+p142
+F0.1
+ssS'job_id'
+p143
+S'20161213-104005-f423'
+p144
+sS'exception'
+p145
+NsS'data_aug'
+p146
+(dp147
+S'scale'
+p148
+F0.0
+sS'hsv_use'
+p149
+I00
+sS'flip'
+p150
+Vnone
+p151
+sS'quad_rot'
+p152
+Vnone
+p153
+sS'noise'
+p154
+F0.0
+sS'hsv_h'
+p155
+F0.02
+sS'hsv_s'
+p156
+F0.04
+sS'rot'
+p157
+I0
+sS'hsv_v'
+p158
+F0.06
+ssS'selected_gpus'
+p159
+NsS'solver'
+p160
+ccaffe_pb2
+SolverParameter
+p161
+(tRp162
+(dp163
+g110
+S'\x18\xaa\x04 \xfe\x04-\x17\xb7\xd180O8\xc4\x95\x01B\x04stepM\xcd\xcc\xcc=]fff?e\xbd7\x865h\xad1p\xfe\x04z\x08snapshot\x88\x01\x01\xc2\x01\x12train_val.prototxt\xf0\x01\x05\xa0\x02\x05'
+p164
+sbsS'snapshot_prefix'
+p165
+S'snapshot'
+p166
+sS'traceback'
+p167
+NsS'framework_id'
+p168
+S'caffe'
+p169
+sS'status_history'
+p170
+(lp171
+((idigits.status
+Status
+p172
+S'I'
+p174
+bF1481596805.353969
+tp175
+a((idigits.status
+Status
+p176
+S'R'
+p177
+bF1481596806.642448
+tp178
+a((idigits.status
+Status
+p179
+S'D'
+p180
+bF1481606137.772455
+tp181
+asS'pickver_task_train'
+p182
+I2
+sS'train_val_file'
+p183
+S'train_val.prototxt'
+p184
+sS'image_mean'
+p185
+NsS'batch_accumulation'
+p186
+I5
+sS'caffe_version'
+p187
+S'0.15.14'
+p188
+sS'log_file'
+p189
+S'caffe_output.log'
+p190
+sS'solver_file'
+p191
+S'solver.prototxt'
+p192
+sS'solver_type'
+p193
+VADAM
+p194
+sbasS'pickver_job_model_image_generic'
+p195
+I1
+sS'pickver_job'
+p196
+I2
+sS'dataset_id'
+p197
+S'20161213-101330-681b'
+p198
+sS'_name'
+p199
+VDetector
+p200
+sS'pickver_job_model_image'
+p201
+I1
+sg145
+NsS'group'
+p202
+V
+p203
+sS'persistent'
+p204
+I01
+sS'form_data'
+p205
+(dp206
+S'form.standard_networks.data'
+p207
+VNone
+p208
+sS'form.learning_rate.data'
+p209
+(lp210
+F0.0001
+asS'form.aug_flip.data'
+p211
+g151
+sS'form.select_gpus.data'
+p212
+(lp213
+sS'form.framework.data'
+p214
+Vcaffe
+p215
+sS'form.dataset.data'
+p216
+V20161213-101330-681b
+p217
+sS'form.python_layer_from_client.data'
+p218
+I00
+sS'form.lr_multistep_values.data'
+p219
+V50,85
+p220
+sS'form.aug_hsv_s.data'
+p221
+F0.04
+sS'form.aug_hsv_h.data'
+p222
+F0.02
+sS'form.lr_policy.data'
+p223
+g140
+sS'form.previous_networks.data'
+p224
+VNone
+p225
+sS'form.lr_sigmoid_gamma.data'
+p226
+F0.1
+sS'form.aug_quad_rot.data'
+p227
+g153
+sS'form.rms_decay.data'
+p228
+F0.99
+sS'form.method.data'
+p229
+Vcustom
+p230
+sS'form.lr_sigmoid_step.data'
+p231
+F50.0
+sS'form.crop_size.data'
+p232
+NsS'form.select_gpu_count.data'
+p233
+I1
+sS'form.python_layer_server_file.data'
+p234
+g203
+sS'form.custom_network.data'
+p235
+V# DetectNet network\u000a\u000a# Data/Input layers\u000aname: "DetectNet"\u000alayer {\u000a  name: "train_data"\u000a  type: "Data"\u000a  top: "data"\u000a  data_param {\u000a    backend: LMDB\u000a    source: "/home/scu508/digits/digits/jobs/20161213-101330-681b/train_db/features"\u000a    batch_size: 10\u000a  }\u000a  include: { phase: TRAIN }\u000a}\u000alayer {\u000a  name: "train_label"\u000a  type: "Data"\u000a  top: "label"\u000a  data_param {\u000a    backend: LMDB\u000a    source: "/home/scu508/digits/digits/jobs/20161213-101330-681b/train_db/labels"\u000a    batch_size: 10\u000a  }\u000a  include: { phase: TRAIN }\u000a}\u000alayer {\u000a  name: "val_data"\u000a  type: "Data"\u000a  top: "data"\u000a  data_param {\u000a    backend: LMDB\u000a    source: "/home/scu508/digits/digits/jobs/20161213-101330-681b/val_db/features"\u000a    batch_size: 6\u000a  }\u000a  include: { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "val_label"\u000a  type: "Data"\u000a  top: "label"\u000a  data_param {\u000a    backend: LMDB\u000a    source: "/home/scu508/digits/digits/jobs/20161213-101330-681b/val_db/labels"\u000a    batch_size: 6\u000a  }\u000a  include: { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "deploy_data"\u000a  type: "Input"\u000a  top: "data"\u000a  input_param {\u000a    shape {\u000a      dim: 1\u000a      dim: 3\u000a      dim: 384\u000a      dim: 1248\u000a    }\u000a  }\u000a  include: { phase: TEST not_stage: "val" }\u000a}\u000a\u000a# Data transformation layers\u000alayer {\u000a  name: "train_transform"\u000a  type: "DetectNetTransformation"\u000a  bottom: "data"\u000a  bottom: "label"\u000a  top: "transformed_data"\u000a  top: "transformed_label"\u000a  detectnet_groundtruth_param: {\u000a    stride: 16\u000a    scale_cvg: 0.4\u000a    gridbox_type: GRIDBOX_MIN\u000a    coverage_type: RECTANGULAR\u000a    min_cvg_len: 20\u000a    obj_norm: true\u000a    image_size_x: 1248\u000a    image_size_y: 384\u000a    crop_bboxes: true\u000a    object_class: { src: 1 dst: 0} # obj class 1 -> cvg index 0\u000a  }\u000a   detectnet_augmentation_param: {\u000a    crop_prob: 1\u000a    shift_x: 32\u000a    shift_y: 32\u000a    flip_prob: 0.5\u000a    rotation_prob: 0\u000a    max_rotate_degree: 5\u000a    scale_prob: 0.4\u000a    scale_min: 0.8\u000a    scale_max: 1.2\u000a    hue_rotation_prob: 0.8\u000a    hue_rotation: 30\u000a    desaturation_prob: 0.8\u000a    desaturation_max: 0.8\u000a  }\u000a  transform_param: {\u000a    mean_value: 127\u000a  }\u000a  include: { phase: TRAIN }\u000a}\u000alayer {\u000a  name: "val_transform"\u000a  type: "DetectNetTransformation"\u000a  bottom: "data"\u000a  bottom: "label"\u000a  top: "transformed_data"\u000a  top: "transformed_label"\u000a  detectnet_groundtruth_param: {\u000a    stride: 16\u000a    scale_cvg: 0.4\u000a    gridbox_type: GRIDBOX_MIN\u000a    coverage_type: RECTANGULAR\u000a    min_cvg_len: 20\u000a    obj_norm: true\u000a    image_size_x: 1248\u000a    image_size_y: 384\u000a    crop_bboxes: false\u000a    object_class: { src: 1 dst: 0} # obj class 1 -> cvg index 0\u000a  }\u000a  transform_param: {\u000a    mean_value: 127\u000a  }\u000a  include: { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "deploy_transform"\u000a  type: "Power"\u000a  bottom: "data"\u000a  top: "transformed_data"\u000a  power_param {\u000a    shift: -127\u000a  }\u000a  include: { phase: TEST not_stage: "val" }\u000a}\u000a\u000a# Label conversion layers\u000alayer {\u000a  name: "slice-label"\u000a  type: "Slice"\u000a  bottom: "transformed_label"\u000a  top: "foreground-label"\u000a  top: "bbox-label"\u000a  top: "size-label"\u000a  top: "obj-label"\u000a  top: "coverage-label"\u000a  slice_param {\u000a    slice_dim: 1\u000a    slice_point: 1\u000a    slice_point: 5\u000a    slice_point: 7\u000a    slice_point: 8\u000a  }\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "coverage-block"\u000a  type: "Concat"\u000a  bottom: "foreground-label"\u000a  bottom: "foreground-label"\u000a  bottom: "foreground-label"\u000a  bottom: "foreground-label"\u000a  top: "coverage-block"\u000a  concat_param {\u000a    concat_dim: 1\u000a  }\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "size-block"\u000a  type: "Concat"\u000a  bottom: "size-label"\u000a  bottom: "size-label"\u000a  top: "size-block"\u000a  concat_param {\u000a    concat_dim: 1\u000a  }\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "obj-block"\u000a  type: "Concat"\u000a  bottom: "obj-label"\u000a  bottom: "obj-label"\u000a  bottom: "obj-label"\u000a  bottom: "obj-label"\u000a  top: "obj-block"\u000a  concat_param {\u000a    concat_dim: 1\u000a  }\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "bb-label-norm"\u000a  type: "Eltwise"\u000a  bottom: "bbox-label"\u000a  bottom: "size-block"\u000a  top: "bbox-label-norm"\u000a  eltwise_param {\u000a    operation: PROD\u000a  }\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "bb-obj-norm"\u000a  type: "Eltwise"\u000a  bottom: "bbox-label-norm"\u000a  bottom: "obj-block"\u000a  top: "bbox-obj-label-norm"\u000a  eltwise_param {\u000a    operation: PROD\u000a  }\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000a\u000a######################################################################\u000a# Start of convolutional network\u000a######################################################################\u000a\u000alayer {\u000a  name: "conv1/7x7_s2"\u000a  type: "Convolution"\u000a  bottom: "transformed_data"\u000a  top: "conv1/7x7_s2"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    pad: 3\u000a    kernel_size: 7\u000a    stride: 2\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "conv1/relu_7x7"\u000a  type: "ReLU"\u000a  bottom: "conv1/7x7_s2"\u000a  top: "conv1/7x7_s2"\u000a}\u000a\u000alayer {\u000a  name: "pool1/3x3_s2"\u000a  type: "Pooling"\u000a  bottom: "conv1/7x7_s2"\u000a  top: "pool1/3x3_s2"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 2\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "pool1/norm1"\u000a  type: "LRN"\u000a  bottom: "pool1/3x3_s2"\u000a  top: "pool1/norm1"\u000a  lrn_param {\u000a    local_size: 5\u000a    alpha: 0.0001\u000a    beta: 0.75\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "conv2/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "pool1/norm1"\u000a  top: "conv2/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "conv2/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "conv2/3x3_reduce"\u000a  top: "conv2/3x3_reduce"\u000a}\u000a\u000alayer {\u000a  name: "conv2/3x3"\u000a  type: "Convolution"\u000a  bottom: "conv2/3x3_reduce"\u000a  top: "conv2/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 192\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "conv2/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "conv2/3x3"\u000a  top: "conv2/3x3"\u000a}\u000a\u000alayer {\u000a  name: "conv2/norm2"\u000a  type: "LRN"\u000a  bottom: "conv2/3x3"\u000a  top: "conv2/norm2"\u000a  lrn_param {\u000a    local_size: 5\u000a    alpha: 0.0001\u000a    beta: 0.75\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "pool2/3x3_s2"\u000a  type: "Pooling"\u000a  bottom: "conv2/norm2"\u000a  top: "pool2/3x3_s2"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 2\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/1x1"\u000a  type: "Convolution"\u000a  bottom: "pool2/3x3_s2"\u000a  top: "inception_3a/1x1"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/relu_1x1"\u000a  type: "ReLU"\u000a  bottom: "inception_3a/1x1"\u000a  top: "inception_3a/1x1"\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "pool2/3x3_s2"\u000a  top: "inception_3a/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 96\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.09\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_3a/3x3_reduce"\u000a  top: "inception_3a/3x3_reduce"\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/3x3"\u000a  type: "Convolution"\u000a  bottom: "inception_3a/3x3_reduce"\u000a  top: "inception_3a/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "inception_3a/3x3"\u000a  top: "inception_3a/3x3"\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/5x5_reduce"\u000a  type: "Convolution"\u000a  bottom: "pool2/3x3_s2"\u000a  top: "inception_3a/5x5_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 16\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.2\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_3a/relu_5x5_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_3a/5x5_reduce"\u000a  top: "inception_3a/5x5_reduce"\u000a}\u000alayer {\u000a  name: "inception_3a/5x5"\u000a  type: "Convolution"\u000a  bottom: "inception_3a/5x5_reduce"\u000a  top: "inception_3a/5x5"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 32\u000a    pad: 2\u000a    kernel_size: 5\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_3a/relu_5x5"\u000a  type: "ReLU"\u000a  bottom: "inception_3a/5x5"\u000a  top: "inception_3a/5x5"\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/pool"\u000a  type: "Pooling"\u000a  bottom: "pool2/3x3_s2"\u000a  top: "inception_3a/pool"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 1\u000a    pad: 1\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/pool_proj"\u000a  type: "Convolution"\u000a  bottom: "inception_3a/pool"\u000a  top: "inception_3a/pool_proj"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 32\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_3a/relu_pool_proj"\u000a  type: "ReLU"\u000a  bottom: "inception_3a/pool_proj"\u000a  top: "inception_3a/pool_proj"\u000a}\u000a\u000alayer {\u000a  name: "inception_3a/output"\u000a  type: "Concat"\u000a  bottom: "inception_3a/1x1"\u000a  bottom: "inception_3a/3x3"\u000a  bottom: "inception_3a/5x5"\u000a  bottom: "inception_3a/pool_proj"\u000a  top: "inception_3a/output"\u000a}\u000a\u000alayer {\u000a  name: "inception_3b/1x1"\u000a  type: "Convolution"\u000a  bottom: "inception_3a/output"\u000a  top: "inception_3b/1x1"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_3b/relu_1x1"\u000a  type: "ReLU"\u000a  bottom: "inception_3b/1x1"\u000a  top: "inception_3b/1x1"\u000a}\u000a\u000alayer {\u000a  name: "inception_3b/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_3a/output"\u000a  top: "inception_3b/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.09\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_3b/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_3b/3x3_reduce"\u000a  top: "inception_3b/3x3_reduce"\u000a}\u000alayer {\u000a  name: "inception_3b/3x3"\u000a  type: "Convolution"\u000a  bottom: "inception_3b/3x3_reduce"\u000a  top: "inception_3b/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 192\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_3b/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "inception_3b/3x3"\u000a  top: "inception_3b/3x3"\u000a}\u000a\u000alayer {\u000a  name: "inception_3b/5x5_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_3a/output"\u000a  top: "inception_3b/5x5_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 32\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.2\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_3b/relu_5x5_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_3b/5x5_reduce"\u000a  top: "inception_3b/5x5_reduce"\u000a}\u000alayer {\u000a  name: "inception_3b/5x5"\u000a  type: "Convolution"\u000a  bottom: "inception_3b/5x5_reduce"\u000a  top: "inception_3b/5x5"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 96\u000a    pad: 2\u000a    kernel_size: 5\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_3b/relu_5x5"\u000a  type: "ReLU"\u000a  bottom: "inception_3b/5x5"\u000a  top: "inception_3b/5x5"\u000a}\u000a\u000alayer {\u000a  name: "inception_3b/pool"\u000a  type: "Pooling"\u000a  bottom: "inception_3a/output"\u000a  top: "inception_3b/pool"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 1\u000a    pad: 1\u000a  }\u000a}\u000alayer {\u000a  name: "inception_3b/pool_proj"\u000a  type: "Convolution"\u000a  bottom: "inception_3b/pool"\u000a  top: "inception_3b/pool_proj"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_3b/relu_pool_proj"\u000a  type: "ReLU"\u000a  bottom: "inception_3b/pool_proj"\u000a  top: "inception_3b/pool_proj"\u000a}\u000alayer {\u000a  name: "inception_3b/output"\u000a  type: "Concat"\u000a  bottom: "inception_3b/1x1"\u000a  bottom: "inception_3b/3x3"\u000a  bottom: "inception_3b/5x5"\u000a  bottom: "inception_3b/pool_proj"\u000a  top: "inception_3b/output"\u000a}\u000a\u000alayer {\u000a  name: "pool3/3x3_s2"\u000a  type: "Pooling"\u000a  bottom: "inception_3b/output"\u000a  top: "pool3/3x3_s2"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 2\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_4a/1x1"\u000a  type: "Convolution"\u000a  bottom: "pool3/3x3_s2"\u000a  top: "inception_4a/1x1"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 192\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_4a/relu_1x1"\u000a  type: "ReLU"\u000a  bottom: "inception_4a/1x1"\u000a  top: "inception_4a/1x1"\u000a}\u000a\u000alayer {\u000a  name: "inception_4a/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "pool3/3x3_s2"\u000a  top: "inception_4a/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 96\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.09\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_4a/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4a/3x3_reduce"\u000a  top: "inception_4a/3x3_reduce"\u000a}\u000a\u000alayer {\u000a  name: "inception_4a/3x3"\u000a  type: "Convolution"\u000a  bottom: "inception_4a/3x3_reduce"\u000a  top: "inception_4a/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 208\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_4a/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "inception_4a/3x3"\u000a  top: "inception_4a/3x3"\u000a}\u000a\u000alayer {\u000a  name: "inception_4a/5x5_reduce"\u000a  type: "Convolution"\u000a  bottom: "pool3/3x3_s2"\u000a  top: "inception_4a/5x5_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 16\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.2\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4a/relu_5x5_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4a/5x5_reduce"\u000a  top: "inception_4a/5x5_reduce"\u000a}\u000alayer {\u000a  name: "inception_4a/5x5"\u000a  type: "Convolution"\u000a  bottom: "inception_4a/5x5_reduce"\u000a  top: "inception_4a/5x5"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 48\u000a    pad: 2\u000a    kernel_size: 5\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4a/relu_5x5"\u000a  type: "ReLU"\u000a  bottom: "inception_4a/5x5"\u000a  top: "inception_4a/5x5"\u000a}\u000alayer {\u000a  name: "inception_4a/pool"\u000a  type: "Pooling"\u000a  bottom: "pool3/3x3_s2"\u000a  top: "inception_4a/pool"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 1\u000a    pad: 1\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4a/pool_proj"\u000a  type: "Convolution"\u000a  bottom: "inception_4a/pool"\u000a  top: "inception_4a/pool_proj"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4a/relu_pool_proj"\u000a  type: "ReLU"\u000a  bottom: "inception_4a/pool_proj"\u000a  top: "inception_4a/pool_proj"\u000a}\u000alayer {\u000a  name: "inception_4a/output"\u000a  type: "Concat"\u000a  bottom: "inception_4a/1x1"\u000a  bottom: "inception_4a/3x3"\u000a  bottom: "inception_4a/5x5"\u000a  bottom: "inception_4a/pool_proj"\u000a  top: "inception_4a/output"\u000a}\u000a\u000alayer {\u000a  name: "inception_4b/1x1"\u000a  type: "Convolution"\u000a  bottom: "inception_4a/output"\u000a  top: "inception_4b/1x1"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 160\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_4b/relu_1x1"\u000a  type: "ReLU"\u000a  bottom: "inception_4b/1x1"\u000a  top: "inception_4b/1x1"\u000a}\u000alayer {\u000a  name: "inception_4b/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4a/output"\u000a  top: "inception_4b/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 112\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.09\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4b/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4b/3x3_reduce"\u000a  top: "inception_4b/3x3_reduce"\u000a}\u000alayer {\u000a  name: "inception_4b/3x3"\u000a  type: "Convolution"\u000a  bottom: "inception_4b/3x3_reduce"\u000a  top: "inception_4b/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 224\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4b/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "inception_4b/3x3"\u000a  top: "inception_4b/3x3"\u000a}\u000alayer {\u000a  name: "inception_4b/5x5_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4a/output"\u000a  top: "inception_4b/5x5_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 24\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.2\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4b/relu_5x5_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4b/5x5_reduce"\u000a  top: "inception_4b/5x5_reduce"\u000a}\u000alayer {\u000a  name: "inception_4b/5x5"\u000a  type: "Convolution"\u000a  bottom: "inception_4b/5x5_reduce"\u000a  top: "inception_4b/5x5"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    pad: 2\u000a    kernel_size: 5\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4b/relu_5x5"\u000a  type: "ReLU"\u000a  bottom: "inception_4b/5x5"\u000a  top: "inception_4b/5x5"\u000a}\u000alayer {\u000a  name: "inception_4b/pool"\u000a  type: "Pooling"\u000a  bottom: "inception_4a/output"\u000a  top: "inception_4b/pool"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 1\u000a    pad: 1\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4b/pool_proj"\u000a  type: "Convolution"\u000a  bottom: "inception_4b/pool"\u000a  top: "inception_4b/pool_proj"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4b/relu_pool_proj"\u000a  type: "ReLU"\u000a  bottom: "inception_4b/pool_proj"\u000a  top: "inception_4b/pool_proj"\u000a}\u000alayer {\u000a  name: "inception_4b/output"\u000a  type: "Concat"\u000a  bottom: "inception_4b/1x1"\u000a  bottom: "inception_4b/3x3"\u000a  bottom: "inception_4b/5x5"\u000a  bottom: "inception_4b/pool_proj"\u000a  top: "inception_4b/output"\u000a}\u000a\u000alayer {\u000a  name: "inception_4c/1x1"\u000a  type: "Convolution"\u000a  bottom: "inception_4b/output"\u000a  top: "inception_4c/1x1"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_4c/relu_1x1"\u000a  type: "ReLU"\u000a  bottom: "inception_4c/1x1"\u000a  top: "inception_4c/1x1"\u000a}\u000a\u000alayer {\u000a  name: "inception_4c/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4b/output"\u000a  top: "inception_4c/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.09\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000a\u000alayer {\u000a  name: "inception_4c/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4c/3x3_reduce"\u000a  top: "inception_4c/3x3_reduce"\u000a}\u000alayer {\u000a  name: "inception_4c/3x3"\u000a  type: "Convolution"\u000a  bottom: "inception_4c/3x3_reduce"\u000a  top: "inception_4c/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 256\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4c/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "inception_4c/3x3"\u000a  top: "inception_4c/3x3"\u000a}\u000alayer {\u000a  name: "inception_4c/5x5_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4b/output"\u000a  top: "inception_4c/5x5_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 24\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.2\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4c/relu_5x5_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4c/5x5_reduce"\u000a  top: "inception_4c/5x5_reduce"\u000a}\u000alayer {\u000a  name: "inception_4c/5x5"\u000a  type: "Convolution"\u000a  bottom: "inception_4c/5x5_reduce"\u000a  top: "inception_4c/5x5"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    pad: 2\u000a    kernel_size: 5\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4c/relu_5x5"\u000a  type: "ReLU"\u000a  bottom: "inception_4c/5x5"\u000a  top: "inception_4c/5x5"\u000a}\u000alayer {\u000a  name: "inception_4c/pool"\u000a  type: "Pooling"\u000a  bottom: "inception_4b/output"\u000a  top: "inception_4c/pool"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 1\u000a    pad: 1\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4c/pool_proj"\u000a  type: "Convolution"\u000a  bottom: "inception_4c/pool"\u000a  top: "inception_4c/pool_proj"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4c/relu_pool_proj"\u000a  type: "ReLU"\u000a  bottom: "inception_4c/pool_proj"\u000a  top: "inception_4c/pool_proj"\u000a}\u000alayer {\u000a  name: "inception_4c/output"\u000a  type: "Concat"\u000a  bottom: "inception_4c/1x1"\u000a  bottom: "inception_4c/3x3"\u000a  bottom: "inception_4c/5x5"\u000a  bottom: "inception_4c/pool_proj"\u000a  top: "inception_4c/output"\u000a}\u000a\u000alayer {\u000a  name: "inception_4d/1x1"\u000a  type: "Convolution"\u000a  bottom: "inception_4c/output"\u000a  top: "inception_4d/1x1"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 112\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4d/relu_1x1"\u000a  type: "ReLU"\u000a  bottom: "inception_4d/1x1"\u000a  top: "inception_4d/1x1"\u000a}\u000alayer {\u000a  name: "inception_4d/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4c/output"\u000a  top: "inception_4d/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 144\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4d/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4d/3x3_reduce"\u000a  top: "inception_4d/3x3_reduce"\u000a}\u000alayer {\u000a  name: "inception_4d/3x3"\u000a  type: "Convolution"\u000a  bottom: "inception_4d/3x3_reduce"\u000a  top: "inception_4d/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 288\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4d/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "inception_4d/3x3"\u000a  top: "inception_4d/3x3"\u000a}\u000alayer {\u000a  name: "inception_4d/5x5_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4c/output"\u000a  top: "inception_4d/5x5_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 32\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4d/relu_5x5_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4d/5x5_reduce"\u000a  top: "inception_4d/5x5_reduce"\u000a}\u000alayer {\u000a  name: "inception_4d/5x5"\u000a  type: "Convolution"\u000a  bottom: "inception_4d/5x5_reduce"\u000a  top: "inception_4d/5x5"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    pad: 2\u000a    kernel_size: 5\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4d/relu_5x5"\u000a  type: "ReLU"\u000a  bottom: "inception_4d/5x5"\u000a  top: "inception_4d/5x5"\u000a}\u000alayer {\u000a  name: "inception_4d/pool"\u000a  type: "Pooling"\u000a  bottom: "inception_4c/output"\u000a  top: "inception_4d/pool"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 1\u000a    pad: 1\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4d/pool_proj"\u000a  type: "Convolution"\u000a  bottom: "inception_4d/pool"\u000a  top: "inception_4d/pool_proj"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 64\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4d/relu_pool_proj"\u000a  type: "ReLU"\u000a  bottom: "inception_4d/pool_proj"\u000a  top: "inception_4d/pool_proj"\u000a}\u000alayer {\u000a  name: "inception_4d/output"\u000a  type: "Concat"\u000a  bottom: "inception_4d/1x1"\u000a  bottom: "inception_4d/3x3"\u000a  bottom: "inception_4d/5x5"\u000a  bottom: "inception_4d/pool_proj"\u000a  top: "inception_4d/output"\u000a}\u000a\u000alayer {\u000a  name: "inception_4e/1x1"\u000a  type: "Convolution"\u000a  bottom: "inception_4d/output"\u000a  top: "inception_4e/1x1"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 256\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4e/relu_1x1"\u000a  type: "ReLU"\u000a  bottom: "inception_4e/1x1"\u000a  top: "inception_4e/1x1"\u000a}\u000alayer {\u000a  name: "inception_4e/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4d/output"\u000a  top: "inception_4e/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 160\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.09\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4e/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4e/3x3_reduce"\u000a  top: "inception_4e/3x3_reduce"\u000a}\u000alayer {\u000a  name: "inception_4e/3x3"\u000a  type: "Convolution"\u000a  bottom: "inception_4e/3x3_reduce"\u000a  top: "inception_4e/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 320\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4e/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "inception_4e/3x3"\u000a  top: "inception_4e/3x3"\u000a}\u000alayer {\u000a  name: "inception_4e/5x5_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4d/output"\u000a  top: "inception_4e/5x5_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 32\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.2\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4e/relu_5x5_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_4e/5x5_reduce"\u000a  top: "inception_4e/5x5_reduce"\u000a}\u000alayer {\u000a  name: "inception_4e/5x5"\u000a  type: "Convolution"\u000a  bottom: "inception_4e/5x5_reduce"\u000a  top: "inception_4e/5x5"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    pad: 2\u000a    kernel_size: 5\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4e/relu_5x5"\u000a  type: "ReLU"\u000a  bottom: "inception_4e/5x5"\u000a  top: "inception_4e/5x5"\u000a}\u000alayer {\u000a  name: "inception_4e/pool"\u000a  type: "Pooling"\u000a  bottom: "inception_4d/output"\u000a  top: "inception_4e/pool"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 1\u000a    pad: 1\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4e/pool_proj"\u000a  type: "Convolution"\u000a  bottom: "inception_4e/pool"\u000a  top: "inception_4e/pool_proj"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_4e/relu_pool_proj"\u000a  type: "ReLU"\u000a  bottom: "inception_4e/pool_proj"\u000a  top: "inception_4e/pool_proj"\u000a}\u000alayer {\u000a  name: "inception_4e/output"\u000a  type: "Concat"\u000a  bottom: "inception_4e/1x1"\u000a  bottom: "inception_4e/3x3"\u000a  bottom: "inception_4e/5x5"\u000a  bottom: "inception_4e/pool_proj"\u000a  top: "inception_4e/output"\u000a}\u000a\u000a\u000a\u000alayer {\u000a  name: "inception_5a/1x1"\u000a  type: "Convolution"\u000a  bottom: "inception_4e/output"\u000a  top: "inception_5a/1x1"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 256\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5a/relu_1x1"\u000a  type: "ReLU"\u000a  bottom: "inception_5a/1x1"\u000a  top: "inception_5a/1x1"\u000a}\u000a\u000alayer {\u000a  name: "inception_5a/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4e/output"\u000a  top: "inception_5a/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 160\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.09\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5a/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_5a/3x3_reduce"\u000a  top: "inception_5a/3x3_reduce"\u000a}\u000a\u000alayer {\u000a  name: "inception_5a/3x3"\u000a  type: "Convolution"\u000a  bottom: "inception_5a/3x3_reduce"\u000a  top: "inception_5a/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 320\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5a/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "inception_5a/3x3"\u000a  top: "inception_5a/3x3"\u000a}\u000alayer {\u000a  name: "inception_5a/5x5_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_4e/output"\u000a  top: "inception_5a/5x5_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 32\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.2\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5a/relu_5x5_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_5a/5x5_reduce"\u000a  top: "inception_5a/5x5_reduce"\u000a}\u000alayer {\u000a  name: "inception_5a/5x5"\u000a  type: "Convolution"\u000a  bottom: "inception_5a/5x5_reduce"\u000a  top: "inception_5a/5x5"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    pad: 2\u000a    kernel_size: 5\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5a/relu_5x5"\u000a  type: "ReLU"\u000a  bottom: "inception_5a/5x5"\u000a  top: "inception_5a/5x5"\u000a}\u000alayer {\u000a  name: "inception_5a/pool"\u000a  type: "Pooling"\u000a  bottom: "inception_4e/output"\u000a  top: "inception_5a/pool"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 1\u000a    pad: 1\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5a/pool_proj"\u000a  type: "Convolution"\u000a  bottom: "inception_5a/pool"\u000a  top: "inception_5a/pool_proj"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5a/relu_pool_proj"\u000a  type: "ReLU"\u000a  bottom: "inception_5a/pool_proj"\u000a  top: "inception_5a/pool_proj"\u000a}\u000alayer {\u000a  name: "inception_5a/output"\u000a  type: "Concat"\u000a  bottom: "inception_5a/1x1"\u000a  bottom: "inception_5a/3x3"\u000a  bottom: "inception_5a/5x5"\u000a  bottom: "inception_5a/pool_proj"\u000a  top: "inception_5a/output"\u000a}\u000a\u000alayer {\u000a  name: "inception_5b/1x1"\u000a  type: "Convolution"\u000a  bottom: "inception_5a/output"\u000a  top: "inception_5b/1x1"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 384\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5b/relu_1x1"\u000a  type: "ReLU"\u000a  bottom: "inception_5b/1x1"\u000a  top: "inception_5b/1x1"\u000a}\u000alayer {\u000a  name: "inception_5b/3x3_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_5a/output"\u000a  top: "inception_5b/3x3_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 192\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5b/relu_3x3_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_5b/3x3_reduce"\u000a  top: "inception_5b/3x3_reduce"\u000a}\u000alayer {\u000a  name: "inception_5b/3x3"\u000a  type: "Convolution"\u000a  bottom: "inception_5b/3x3_reduce"\u000a  top: "inception_5b/3x3"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 384\u000a    pad: 1\u000a    kernel_size: 3\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5b/relu_3x3"\u000a  type: "ReLU"\u000a  bottom: "inception_5b/3x3"\u000a  top: "inception_5b/3x3"\u000a}\u000alayer {\u000a  name: "inception_5b/5x5_reduce"\u000a  type: "Convolution"\u000a  bottom: "inception_5a/output"\u000a  top: "inception_5b/5x5_reduce"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 48\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5b/relu_5x5_reduce"\u000a  type: "ReLU"\u000a  bottom: "inception_5b/5x5_reduce"\u000a  top: "inception_5b/5x5_reduce"\u000a}\u000alayer {\u000a  name: "inception_5b/5x5"\u000a  type: "Convolution"\u000a  bottom: "inception_5b/5x5_reduce"\u000a  top: "inception_5b/5x5"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    pad: 2\u000a    kernel_size: 5\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5b/relu_5x5"\u000a  type: "ReLU"\u000a  bottom: "inception_5b/5x5"\u000a  top: "inception_5b/5x5"\u000a}\u000alayer {\u000a  name: "inception_5b/pool"\u000a  type: "Pooling"\u000a  bottom: "inception_5a/output"\u000a  top: "inception_5b/pool"\u000a  pooling_param {\u000a    pool: MAX\u000a    kernel_size: 3\u000a    stride: 1\u000a    pad: 1\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5b/pool_proj"\u000a  type: "Convolution"\u000a  bottom: "inception_5b/pool"\u000a  top: "inception_5b/pool_proj"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 128\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.1\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.2\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "inception_5b/relu_pool_proj"\u000a  type: "ReLU"\u000a  bottom: "inception_5b/pool_proj"\u000a  top: "inception_5b/pool_proj"\u000a}\u000alayer {\u000a  name: "inception_5b/output"\u000a  type: "Concat"\u000a  bottom: "inception_5b/1x1"\u000a  bottom: "inception_5b/3x3"\u000a  bottom: "inception_5b/5x5"\u000a  bottom: "inception_5b/pool_proj"\u000a  top: "inception_5b/output"\u000a}\u000alayer {\u000a  name: "pool5/drop_s1"\u000a  type: "Dropout"\u000a  bottom: "inception_5b/output"\u000a  top: "pool5/drop_s1"\u000a  dropout_param {\u000a    dropout_ratio: 0.4\u000a  }\u000a}\u000alayer {\u000a  name: "cvg/classifier"\u000a  type: "Convolution"\u000a  bottom: "pool5/drop_s1"\u000a  top: "cvg/classifier"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 1\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.\u000a    }\u000a  }\u000a}\u000alayer {\u000a  name: "coverage/sig"\u000a  type: "Sigmoid"\u000a  bottom: "cvg/classifier"\u000a  top: "coverage"\u000a}\u000alayer {\u000a  name: "bbox/regressor"\u000a  type: "Convolution"\u000a  bottom: "pool5/drop_s1"\u000a  top: "bboxes"\u000a  param {\u000a    lr_mult: 1\u000a    decay_mult: 1\u000a  }\u000a  param {\u000a    lr_mult: 2\u000a    decay_mult: 0\u000a  }\u000a  convolution_param {\u000a    num_output: 4\u000a    kernel_size: 1\u000a    weight_filler {\u000a      type: "xavier"\u000a      std: 0.03\u000a    }\u000a    bias_filler {\u000a      type: "constant"\u000a      value: 0.\u000a    }\u000a  }\u000a}\u000a\u000a######################################################################\u000a# End of convolutional network\u000a######################################################################\u000a\u000a# Convert bboxes\u000alayer {\u000a  name: "bbox_mask"\u000a  type: "Eltwise"\u000a  bottom: "bboxes"\u000a  bottom: "coverage-block"\u000a  top: "bboxes-masked"\u000a  eltwise_param {\u000a    operation: PROD\u000a  }\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "bbox-norm"\u000a  type: "Eltwise"\u000a  bottom: "bboxes-masked"\u000a  bottom: "size-block"\u000a  top: "bboxes-masked-norm"\u000a  eltwise_param {\u000a    operation: PROD\u000a  }\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "bbox-obj-norm"\u000a  type: "Eltwise"\u000a  bottom: "bboxes-masked-norm"\u000a  bottom: "obj-block"\u000a  top: "bboxes-obj-masked-norm"\u000a  eltwise_param {\u000a    operation: PROD\u000a  }\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000a\u000a# Loss layers\u000alayer {\u000a  name: "bbox_loss"\u000a  type: "L1Loss"\u000a  bottom: "bboxes-obj-masked-norm"\u000a  bottom: "bbox-obj-label-norm"\u000a  top: "loss_bbox"\u000a  loss_weight: 2\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a  name: "coverage_loss"\u000a  type: "EuclideanLoss"\u000a  bottom: "coverage"\u000a  bottom: "coverage-label"\u000a  top: "loss_coverage"\u000a  include { phase: TRAIN }\u000a  include { phase: TEST stage: "val" }\u000a}\u000a\u000a# Cluster bboxes\u000alayer {\u000a    type: 'Python'\u000a    name: 'cluster'\u000a    bottom: 'coverage'\u000a    bottom: 'bboxes'\u000a    top: 'bbox-list'\u000a    python_param {\u000a        module: 'caffe.layers.detectnet.clustering'\u000a        layer: 'ClusterDetections'\u000a        param_str : '1248, 352, 16, 0.6, 3, 0.02, 22, 1'\u000a    }\u000a    include: { phase: TEST }\u000a}\u000a\u000a# Calculate mean average precision\u000alayer {\u000a  type: 'Python'\u000a  name: 'cluster_gt'\u000a  bottom: 'coverage-label'\u000a  bottom: 'bbox-label'\u000a  top: 'bbox-list-label'\u000a  python_param {\u000a      module: 'caffe.layers.detectnet.clustering'\u000a      layer: 'ClusterGroundtruth'\u000a      param_str : '1248, 352, 16, 1'\u000a  }\u000a  include: { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a    type: 'Python'\u000a    name: 'score'\u000a    bottom: 'bbox-list-label'\u000a    bottom: 'bbox-list'\u000a    top: 'bbox-list-scored'\u000a    python_param {\u000a        module: 'caffe.layers.detectnet.mean_ap'\u000a        layer: 'ScoreDetections'\u000a    }\u000a    include: { phase: TEST stage: "val" }\u000a}\u000alayer {\u000a    type: 'Python'\u000a    name: 'mAP'\u000a    bottom: 'bbox-list-scored'\u000a    top: 'mAP'\u000a    top: 'precision'\u000a    top: 'recall'\u000a    python_param {\u000a        module: 'caffe.layers.detectnet.mean_ap'\u000a        layer: 'mAP'\u000a        param_str : '1248, 352, 16'\u000a    }\u000a    include: { phase: TEST stage: "val" }\u000a}
+p236
+sS'form.aug_hsv_v.data'
+p237
+F0.06
+sS'form.solver_type.data'
+p238
+g194
+sS'form.aug_noise.data'
+p239
+F0.0
+sS'form.select_gpus_list.data'
+p240
+g203
+sS'form.shuffle.data'
+p241
+I01
+sS'form.aug_scale.data'
+p242
+F0.0
+sS'form.batch_accumulation.data'
+p243
+I5
+sS'form.batch_size.data'
+p244
+(lp245
+I2
+asS'form.lr_inv_power.data'
+p246
+F0.5
+sS'form.group_name.data'
+p247
+g203
+sS'form.use_mean.data'
+p248
+g113
+sS'form.lr_inv_gamma.data'
+p249
+F0.1
+sS'form.lr_step_gamma.data'
+p250
+F0.1
+sS'form.snapshot_interval.data'
+p251
+F1.0
+sS'form.select_gpu.data'
+p252
+Vnext
+p253
+sS'form.lr_step_size.data'
+p254
+F33.0
+sS'form.aug_hsv_use.data'
+p255
+I00
+sS'form.pretrained_networks.data'
+p256
+VNone
+p257
+sS'form.custom_network_snapshot.data'
+p258
+g98
+sS'form.random_seed.data'
+p259
+NsS'form.lr_multistep_gamma.data'
+p260
+F0.5
+sS'form.model_name.data'
+p261
+g200
+sS'form.lr_exp_gamma.data'
+p262
+F0.95
+sS'form.val_interval.data'
+p263
+F1.0
+sS'form.aug_rot.data'
+p264
+I0
+sS'form.train_epochs.data'
+p265
+I30
+sS'form.lr_poly_power.data'
+p266
+F3.0
+ssg134
+F1.0
+sS'_id'
+p267
+S'20161213-104005-f423'
+p268
+sS'pickver_job_dataset'
+p269
+I1
+sg170
+(lp270
+((idigits.status
+Status
+p271
+g174
+bF1481596805.26438
+tp272
+a((idigits.status
+Status
+p273
+g177
+bF1481596806.362987
+tp274
+a((idigits.status
+Status
+p275
+g180
+bF1481606137.775378
+tp276
+asb.

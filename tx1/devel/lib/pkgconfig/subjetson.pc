@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/hj/workspace/jetson-ros/devel
+
+Name: subjetson
+Description: Description of subjetson
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/hj/workspace/jetson-ros/devel/lib 
+Requires: 

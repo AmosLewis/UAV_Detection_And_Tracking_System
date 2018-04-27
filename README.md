@@ -2,9 +2,13 @@
 
 # Problem Statement Summary
 Build a real time car/people detection and tracking system on DJI drones. The solution should include:
-The videos should be captured by cameras on Drones.  
+
+The videos should be captured by cameras on Drones. 
+
 Software framework should be based on ROS.
+
 Car/people should be detected by deep learning methods and indicated by bounding box.
+
 Positions and orientation control should be updated in real time (10 Hz or faster)
 
 # Required Data Set

@@ -11,6 +11,10 @@ Car/people should be detected by deep learning methods and indicated by bounding
 
 Positions and orientation control should be updated in real time (10 Hz or faster)
 
+# System overview
+
+![overview](result/overview.png)
+
 # Required Data Set
 
 [COCO](http://cocodataset.org/#download)( Pedestrian )
@@ -39,7 +43,8 @@ Use TensorRT to accelerate the caffe model. (NVIDIA deep vision runtime library)
 
 [detectNet.h](tx1/src/jetson/detectNet.h)
 [tensorNet.cpp](tx1/src/jetson/tensorNet.cpp)
-![TensorRT](result/TensorRT.png)
+
+![TensorRT_efficiency](result/TensorRT_efficiency.png)
 
 Program Cuda kernal to process each image and its bounding box(Cuda C/C++ API)
 

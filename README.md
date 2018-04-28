@@ -94,6 +94,7 @@ Use DJI flying control SDK and implement a Kalman filter to optimize the control
 
 [![Watch the video](result/uav_video.gif)](https://youtu.be/V81YuV52Tu8)
 
+
 # Related Work
 [UAV Based Target Tracking and Recognition PDF](https://ieeexplore.ieee.org/document/7849521/)
 
@@ -109,7 +110,9 @@ Use DJI flying control SDK and implement a Kalman filter to optimize the control
 
 [Kalman filter](https://github.com/hmartiro/kalman-cpp)
 
+# NVCaffe Detectnet Architecture
 
+![detectnet](result/detectnet.jpg)
 
 
 

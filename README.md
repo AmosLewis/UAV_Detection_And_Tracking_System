@@ -11,7 +11,7 @@ Car/people should be detected by deep learning methods and indicated by bounding
 
 Positions and orientation control should be updated in real time (10 Hz or faster)
 
-# System overview
+# System Overview
 
 ![overview](result/overview.png)
 
@@ -76,7 +76,7 @@ Use DJI flying control SDK and implement a Kalman filter to optimize the control
 [uavcontrol.cpp](tk1/rosdji_sdk/src/Onboard-SDK-ROS-3.1/uavcontrol/src/uavcontrol.cpp)
 
 # Result
-## image test
+## Image test
 ![peds_input](result/peds_input.jpg)
 
 ![peds_output](result/peds_output.jpg)
@@ -85,7 +85,7 @@ Use DJI flying control SDK and implement a Kalman filter to optimize the control
 
 ![car_output](result/car_output.jpg)
 
-## video test
+## Video test
 ![pedestrain_video](result/pedestrain_video.gif)
 
 ![car_video](result/car_video.gif)

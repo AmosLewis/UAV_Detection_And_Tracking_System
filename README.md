@@ -60,7 +60,7 @@ Use ROS to send message between camera, manifold, TX1. (ROS image_transport sens
 [detectNet.cpp](tx1/src/jetson/detectNet.cpp)
 
 ## TK1(DJI Manifold)
-Use DJI X3 camera for 4k video capture and use ROS to send image.(Onboard-SDK-ROS 3.1 DJI_SDK_read_cam)
+Use DJI X3 camera for video capture(25fps,1280*720, YUV->RGB) and use ROS to send image.(Onboard-SDK-ROS 3.1 DJI_SDK_read_cam)
 [nv_cam.cpp](tk1/rosdji_sdk/src/Onboard-SDK-ROS-3.1/dji_sdk_read_cam/src/nv_cam.cpp)
 
 Use DJI manifold to process KCF algorithm for tracking return bounding box of tracked pedstrain/car (University of Coimbra C++ Implementation of KCF Tracker + ROS )

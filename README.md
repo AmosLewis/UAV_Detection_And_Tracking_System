@@ -92,6 +92,8 @@ Use DJI flying control SDK and implement a Kalman filter to optimize the control
 
 ## Drone test
 
+Click the image to see full video
+
 [![Watch the video](result/uav_video.gif)](https://youtu.be/V81YuV52Tu8)
 
 
